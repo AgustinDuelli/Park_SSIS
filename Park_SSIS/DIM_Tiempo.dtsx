@@ -1,0 +1,90 @@
+﻿<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="6/6/2025 3:37:03 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-EGJAB17"
+  DTS:CreatorName="DESKTOP-EGJAB17\Usuario"
+  DTS:DTSID="{8E082931-E691-4A7C-AE31-D2B9FF7AD739}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.0"
+  DTS:LocaleID="11274"
+  DTS:ObjectName="DIM_Tiempo"
+  DTS:PackageType="5"
+  DTS:VersionBuild="17"
+  DTS:VersionGUID="{6AD73880-1EF9-4162-AF38-8D4DE7FE9F47}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:Variables>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{6E359DEE-AEC9-4798-9BE2-CE553FEC3247}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="END_DATE">
+      <DTS:VariableValue
+        DTS:DataType="8">06/06/2025</DTS:VariableValue>
+    </DTS:Variable>
+    <DTS:Variable
+      DTS:CreationName=""
+      DTS:DTSID="{C5A2F834-E92B-40CA-A8FC-2635FEF61F83}"
+      DTS:IncludeInDebugDump="2345"
+      DTS:Namespace="User"
+      DTS:ObjectName="START_DATE">
+      <DTS:VariableValue
+        DTS:DataType="8">01/01/2023</DTS:VariableValue>
+    </DTS:Variable>
+  </DTS:Variables>
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\Carga Datos Tiempo"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Carga de dimensión de tiempo según variables"
+      DTS:DTSID="{825DECF7-E7C2-4731-8A03-73299B6F1029}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="Carga Datos Tiempo"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{4B8635BC-1EF6-4537-B738-50441754531D}"
+          SQLTask:SqlStatementSource="SET DATEFIRST 1;&#xA;&#xA;DECLARE @startDate DATE = CONVERT(DATE, ?, 103);&#xA;DECLARE @endDate   DATE = CONVERT(DATE, ?, 103);&#xA;&#xA;WITH DateSeries AS (&#xA;    SELECT @startDate  AS [date]  -- Parameter 0: startDate&#xA;    UNION ALL&#xA;    SELECT DATEADD(DAY, 1, [date])&#xA;    FROM DateSeries&#xA;    WHERE [date] &lt; @endDate &#xA;),&#xA;DateInfo AS (&#xA;    SELECT&#xA;        [date],&#xA;        YEAR([date]) AS año,&#xA;        DATEPART(QUARTER, [date]) AS trimestre,&#xA;        MONTH([date]) AS mes,&#xA;        DATEFROMPARTS(YEAR([date]), MONTH([date]), 1) AS first_day_of_month,&#xA;        (DATEDIFF(DAY, DATEFROMPARTS(YEAR([date]), MONTH([date]), 1), [date]) &#xA;            + DATEPART(WEEKDAY, DATEFROMPARTS(YEAR([date]), MONTH([date]), 1)) - 1) / 7 + 1 AS semana&#xA;    FROM DateSeries&#xA;)&#xA;INSERT INTO [DIM_Tiempo] ([año], [trimestre], [mes], [semana])&#xA;SELECT DISTINCT año, trimestre, mes, semana&#xA;FROM DateInfo&#xA;WHERE NOT EXISTS (&#xA;    SELECT 1&#xA;    FROM [DIM_Tiempo] dt&#xA;    WHERE dt.año = DateInfo.año&#xA;      AND dt.trimestre = DateInfo.trimestre&#xA;      AND dt.mes = DateInfo.mes&#xA;      AND dt.semana = DateInfo.semana&#xA;)&#xA;OPTION (MAXRECURSION 0);&#xA;" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask">
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="0"
+            SQLTask:DtsVariableName="User::START_DATE"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="129"
+            SQLTask:ParameterSize="-1" />
+          <SQLTask:ParameterBinding
+            SQLTask:ParameterName="1"
+            SQLTask:DtsVariableName="User::END_DATE"
+            SQLTask:ParameterDirection="Input"
+            SQLTask:DataType="129"
+            SQLTask:ParameterSize="-1" />
+        </SQLTask:SqlTaskData>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="175,42"
+          Id="Package\Carga Datos Tiempo"
+          TopLeft="426,114" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>

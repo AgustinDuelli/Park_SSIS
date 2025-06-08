@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="34.176.185.229.PARK_2_BUENOSAIRES_ENTRADAS.sqlserver"
+  DTS:DTSID="{EAA14487-F9F6-474F-8311-680E7B500F52}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=34.176.185.229;User ID=sqlserver;Initial Catalog=PARK_2_BUENOSAIRES_ENTRADAS;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-Park_SSIS-{EAA14487-F9F6-474F-8311-680E7B500F52}34.176.185.229.PARK_2_BUENOSAIRES_ENTRADAS.sqlserver;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAT1QLX+eAwEGbWxYArmVooQAAAAACAAAAAAAQZgAAAAEAACAAAAC+BLz3Oj3W0IS8ESTMMpz9XmByjMwovV5wsTQg+x70LAAAAAAOgAAAAAIAACAAAAD4+L9U2KoHSIcWKBNI7ZVrzAq62ArPC2h8ZJJQKd4jYZAAAAAUu7zhscirOzw/xrF7keidHTjSwMrUkm6GWxptXQZZI+q67o7ihwZlOzwmWHylzgd0Q9cyOnpvrAnaOQB9N1bk0w0Co3QhqahUhSGV9XMiAD9nDML2utucMjPKVkIMlrKBZTts2WuB+VLfvr1+EJQXqMZQuAfvoM04dZBVrW7AD4FBnb/Jing4j9Pi5YdTEhJAAAAA/hhoNb9flmrwsHKl/2MJkXROS9YVT1AOes2Tb/OM+B8Q0lINdJWQOCN6A35coO96/SjbpQq9Ui9bU67iFbqV6A==</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
