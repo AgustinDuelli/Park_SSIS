@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="34.176.185.229.LOG_SSIS.sqlserver"
+  DTS:DTSID="{14AE0AD6-DC33-4E59-9876-BBA8436FFA5B}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=34.176.185.229;User ID=sqlserver;Initial Catalog=LOG_SSIS;Provider=MSOLEDBSQL19.1;Persist Security Info=True;Trust Server Certificate=True;Application Name=SSIS-Park_SSIS-{14AE0AD6-DC33-4E59-9876-BBA8436FFA5B}34.176.185.229.LOG_SSIS.sqlserver;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAT1QLX+eAwEGbWxYArmVooQAAAAACAAAAAAAQZgAAAAEAACAAAADGsPn3Ke4DXErzjn6BhNfXbjBXnSgWjSnO1cqJZ5iX9AAAAAAOgAAAAAIAACAAAAD639zBb7R+7ZkkUX48IMziS7WA4QTfe8XZr2DMt3dnZ5AAAAAXXya4Yc0DZoSeR6pHO7tj+B0M40TbpbVmM+atXameDbCIgO9Z7WkDIPW8JyeoSje7hddahZNGB0LIXxP4Gb6jWAue3tdXgqeb7OllNQzEuFFR1uNuhLPBWFtfodFe6XKhCauJvmKtviSUlNgIjtscD2UAd8IrtAJrYIqCxvtuxEJNUfaQ4tmyiU7Wg+w40vtAAAAARNVm4okHqwDu0iF9aql4fs0DeuBQFX60KVWgHIW/faWloM/GOZsemaXmeCEpFhSm7i58enFUGsPWkK1OySJoTQ==</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

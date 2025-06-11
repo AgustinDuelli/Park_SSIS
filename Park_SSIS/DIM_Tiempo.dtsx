@@ -11,8 +11,8 @@
   DTS:LocaleID="11274"
   DTS:ObjectName="DIM_Tiempo"
   DTS:PackageType="5"
-  DTS:VersionBuild="17"
-  DTS:VersionGUID="{6AD73880-1EF9-4162-AF38-8D4DE7FE9F47}">
+  DTS:VersionBuild="21"
+  DTS:VersionGUID="{724CE83F-862A-4B0B-ABF1-B2FB39063914}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables>
@@ -23,7 +23,7 @@
       DTS:Namespace="User"
       DTS:ObjectName="END_DATE">
       <DTS:VariableValue
-        DTS:DataType="8">06/06/2025</DTS:VariableValue>
+        DTS:DataType="8">24/06/2025</DTS:VariableValue>
     </DTS:Variable>
     <DTS:Variable
       DTS:CreationName=""
