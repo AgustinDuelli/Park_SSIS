@@ -11,8 +11,8 @@
   DTS:LocaleID="11274"
   DTS:ObjectName="DIM_Producto"
   DTS:PackageType="5"
-  DTS:VersionBuild="40"
-  DTS:VersionGUID="{7B9EF210-C8E6-4567-A11C-222FE1F59C99}">
+  DTS:VersionBuild="46"
+  DTS:VersionGUID="{3C9C4E84-32FD-4BA9-B725-E1914173F078}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
@@ -201,11 +201,11 @@
               </outputs>
             </component>
             <component
-              refId="Package\Datos Productos Parques\Destino de OLE DB"
+              refId="Package\Datos Productos Parques\Guardar DIM_Producto"
               componentClassID="Microsoft.OLEDBDestination"
               contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
               description="Destino de OLE DB"
-              name="Destino de OLE DB"
+              name="Guardar DIM_Producto"
               usesDispositions="true"
               version="4">
               <properties>
@@ -258,7 +258,7 @@
               </properties>
               <connections>
                 <connection
-                  refId="Package\Datos Productos Parques\Destino de OLE DB.Connections[OleDbConnection]"
+                  refId="Package\Datos Productos Parques\Guardar DIM_Producto.Connections[OleDbConnection]"
                   connectionManagerID="{4B8635BC-1EF6-4537-B738-50441754531D}:external"
                   connectionManagerRefId="Project.ConnectionManagers[34.176.185.229.DW_VENTAS.sqlserver1]"
                   description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
@@ -266,57 +266,57 @@
               </connections>
               <inputs>
                 <input
-                  refId="Package\Datos Productos Parques\Destino de OLE DB.Inputs[Entrada de destino de OLE DB]"
+                  refId="Package\Datos Productos Parques\Guardar DIM_Producto.Inputs[Entrada de destino de OLE DB]"
                   errorOrTruncationOperation="Insertar"
-                  errorRowDisposition="FailComponent"
+                  errorRowDisposition="RedirectRow"
                   hasSideEffects="true"
                   name="Entrada de destino de OLE DB">
                   <inputColumns>
                     <inputColumn
-                      refId="Package\Datos Productos Parques\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[subrubro]"
+                      refId="Package\Datos Productos Parques\Guardar DIM_Producto.Inputs[Entrada de destino de OLE DB].Columns[subrubro]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="subrubro"
-                      externalMetadataColumnId="Package\Datos Productos Parques\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[subrubro]"
+                      externalMetadataColumnId="Package\Datos Productos Parques\Guardar DIM_Producto.Inputs[Entrada de destino de OLE DB].ExternalColumns[subrubro]"
                       lineageId="Package\Datos Productos Parques\Agregado Productos Ùnicos.Outputs[Salida de agregado 1].Columns[subrubro]" />
                     <inputColumn
-                      refId="Package\Datos Productos Parques\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[rubro]"
+                      refId="Package\Datos Productos Parques\Guardar DIM_Producto.Inputs[Entrada de destino de OLE DB].Columns[rubro]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="rubro"
-                      externalMetadataColumnId="Package\Datos Productos Parques\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[rubro]"
+                      externalMetadataColumnId="Package\Datos Productos Parques\Guardar DIM_Producto.Inputs[Entrada de destino de OLE DB].ExternalColumns[rubro]"
                       lineageId="Package\Datos Productos Parques\Agregado Productos Ùnicos.Outputs[Salida de agregado 1].Columns[rubro]" />
                     <inputColumn
-                      refId="Package\Datos Productos Parques\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].Columns[producto]"
+                      refId="Package\Datos Productos Parques\Guardar DIM_Producto.Inputs[Entrada de destino de OLE DB].Columns[producto]"
                       cachedCodepage="1252"
                       cachedDataType="str"
                       cachedLength="50"
                       cachedName="producto"
-                      externalMetadataColumnId="Package\Datos Productos Parques\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[descripcion]"
+                      externalMetadataColumnId="Package\Datos Productos Parques\Guardar DIM_Producto.Inputs[Entrada de destino de OLE DB].ExternalColumns[descripcion]"
                       lineageId="Package\Datos Productos Parques\Agregado Productos Ùnicos.Outputs[Salida de agregado 1].Columns[producto]" />
                   </inputColumns>
                   <externalMetadataColumns
                     isUsed="True">
                     <externalMetadataColumn
-                      refId="Package\Datos Productos Parques\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[id_producto]"
+                      refId="Package\Datos Productos Parques\Guardar DIM_Producto.Inputs[Entrada de destino de OLE DB].ExternalColumns[id_producto]"
                       dataType="i4"
                       name="id_producto" />
                     <externalMetadataColumn
-                      refId="Package\Datos Productos Parques\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[rubro]"
+                      refId="Package\Datos Productos Parques\Guardar DIM_Producto.Inputs[Entrada de destino de OLE DB].ExternalColumns[rubro]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="rubro" />
                     <externalMetadataColumn
-                      refId="Package\Datos Productos Parques\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[subrubro]"
+                      refId="Package\Datos Productos Parques\Guardar DIM_Producto.Inputs[Entrada de destino de OLE DB].ExternalColumns[subrubro]"
                       codePage="1252"
                       dataType="str"
                       length="50"
                       name="subrubro" />
                     <externalMetadataColumn
-                      refId="Package\Datos Productos Parques\Destino de OLE DB.Inputs[Entrada de destino de OLE DB].ExternalColumns[descripcion]"
+                      refId="Package\Datos Productos Parques\Guardar DIM_Producto.Inputs[Entrada de destino de OLE DB].ExternalColumns[descripcion]"
                       codePage="1252"
                       dataType="str"
                       length="50"
@@ -326,22 +326,754 @@
               </inputs>
               <outputs>
                 <output
-                  refId="Package\Datos Productos Parques\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB]"
+                  refId="Package\Datos Productos Parques\Guardar DIM_Producto.Outputs[Salida de error de destino de OLE DB]"
                   exclusionGroup="1"
                   isErrorOut="true"
                   name="Salida de error de destino de OLE DB"
-                  synchronousInputId="Package\Datos Productos Parques\Destino de OLE DB.Inputs[Entrada de destino de OLE DB]">
+                  synchronousInputId="Package\Datos Productos Parques\Guardar DIM_Producto.Inputs[Entrada de destino de OLE DB]">
                   <outputColumns>
                     <outputColumn
-                      refId="Package\Datos Productos Parques\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      refId="Package\Datos Productos Parques\Guardar DIM_Producto.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
                       dataType="i4"
-                      lineageId="Package\Datos Productos Parques\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      lineageId="Package\Datos Productos Parques\Guardar DIM_Producto.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
                       name="ErrorCode"
                       specialFlags="1" />
                     <outputColumn
-                      refId="Package\Datos Productos Parques\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      refId="Package\Datos Productos Parques\Guardar DIM_Producto.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
                       dataType="i4"
-                      lineageId="Package\Datos Productos Parques\Destino de OLE DB.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      lineageId="Package\Datos Productos Parques\Guardar DIM_Producto.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Destino de OLE DB"
+              name="LOG_DIM_PRODUCTOS_P1"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[dbo].[Log_DIM_Producto]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Connections[OleDbConnection]"
+                  connectionManagerID="{14AE0AD6-DC33-4E59-9876-BBA8436FFA5B}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[34.176.185.229.LOG_SSIS.sqlserver]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].ExternalColumns[ErrorCode]"
+                      lineageId="Package\Datos Productos Parques\Productos Parque 1.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].ExternalColumns[ErrorColumn]"
+                      lineageId="Package\Datos Productos Parques\Productos Parque 1.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].Columns[producto]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="producto"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].ExternalColumns[producto]"
+                      lineageId="Package\Datos Productos Parques\Productos Parque 1.Outputs[Salida de error de origen de OLE DB].Columns[producto]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].Columns[subrubro]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="subrubro"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].ExternalColumns[subrubro]"
+                      lineageId="Package\Datos Productos Parques\Productos Parque 1.Outputs[Salida de error de origen de OLE DB].Columns[subrubro]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].Columns[rubro]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="rubro"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].ExternalColumns[rubro]"
+                      lineageId="Package\Datos Productos Parques\Productos Parque 1.Outputs[Salida de error de origen de OLE DB].Columns[rubro]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].Columns[process]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="process"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].ExternalColumns[StepInProcess]"
+                      lineageId="Package\Datos Productos Parques\PROCESS_PROD_P1.Outputs[Salida de columna derivada].Columns[process]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].ExternalColumns[id_log]"
+                      dataType="i4"
+                      name="id_log" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].ExternalColumns[ErrorCode]"
+                      dataType="i4"
+                      name="ErrorCode" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].ExternalColumns[ErrorColumn]"
+                      dataType="i4"
+                      name="ErrorColumn" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].ExternalColumns[producto]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="producto" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].ExternalColumns[subrubro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="subrubro" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].ExternalColumns[rubro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="rubro" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB].ExternalColumns[StepInProcess]"
+                      codePage="1252"
+                      dataType="str"
+                      length="200"
+                      name="StepInProcess" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Outputs[Salida de error de destino de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de OLE DB"
+                  synchronousInputId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Destino de OLE DB"
+              name="LOG_DIM_PRODUCTOS_P2"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[dbo].[Log_DIM_Producto]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Connections[OleDbConnection]"
+                  connectionManagerID="{14AE0AD6-DC33-4E59-9876-BBA8436FFA5B}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[34.176.185.229.LOG_SSIS.sqlserver]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].ExternalColumns[ErrorCode]"
+                      lineageId="Package\Datos Productos Parques\Productos Parque 2.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].ExternalColumns[ErrorColumn]"
+                      lineageId="Package\Datos Productos Parques\Productos Parque 2.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].Columns[producto]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="producto"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].ExternalColumns[producto]"
+                      lineageId="Package\Datos Productos Parques\Productos Parque 2.Outputs[Salida de error de origen de OLE DB].Columns[producto]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].Columns[subrubro]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="subrubro"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].ExternalColumns[subrubro]"
+                      lineageId="Package\Datos Productos Parques\Productos Parque 2.Outputs[Salida de error de origen de OLE DB].Columns[subrubro]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].Columns[rubro]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="rubro"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].ExternalColumns[rubro]"
+                      lineageId="Package\Datos Productos Parques\Productos Parque 2.Outputs[Salida de error de origen de OLE DB].Columns[rubro]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].Columns[process]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="process"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].ExternalColumns[StepInProcess]"
+                      lineageId="Package\Datos Productos Parques\PROCESS_PROD_P2.Outputs[Salida de columna derivada].Columns[process]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].ExternalColumns[id_log]"
+                      dataType="i4"
+                      name="id_log" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].ExternalColumns[ErrorCode]"
+                      dataType="i4"
+                      name="ErrorCode" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].ExternalColumns[ErrorColumn]"
+                      dataType="i4"
+                      name="ErrorColumn" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].ExternalColumns[producto]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="producto" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].ExternalColumns[subrubro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="subrubro" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].ExternalColumns[rubro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="rubro" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB].ExternalColumns[StepInProcess]"
+                      codePage="1252"
+                      dataType="str"
+                      length="200"
+                      name="StepInProcess" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Outputs[Salida de error de destino de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de OLE DB"
+                  synchronousInputId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Destino de OLE DB"
+              name="LOG_DIM_PRODUCTOS_P3"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[dbo].[Log_DIM_Producto]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Connections[OleDbConnection]"
+                  connectionManagerID="{14AE0AD6-DC33-4E59-9876-BBA8436FFA5B}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[34.176.185.229.LOG_SSIS.sqlserver]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].ExternalColumns[ErrorCode]"
+                      lineageId="Package\Datos Productos Parques\Productos Parque 3.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].ExternalColumns[ErrorColumn]"
+                      lineageId="Package\Datos Productos Parques\Productos Parque 3.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].Columns[producto]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="producto"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].ExternalColumns[producto]"
+                      lineageId="Package\Datos Productos Parques\Productos Parque 3.Outputs[Salida de error de origen de OLE DB].Columns[producto]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].Columns[subrubro]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="subrubro"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].ExternalColumns[subrubro]"
+                      lineageId="Package\Datos Productos Parques\Productos Parque 3.Outputs[Salida de error de origen de OLE DB].Columns[subrubro]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].Columns[rubro]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="rubro"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].ExternalColumns[rubro]"
+                      lineageId="Package\Datos Productos Parques\Productos Parque 3.Outputs[Salida de error de origen de OLE DB].Columns[rubro]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].Columns[process]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="process"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].ExternalColumns[StepInProcess]"
+                      lineageId="Package\Datos Productos Parques\PROCESS_PROD_P3.Outputs[Salida de columna derivada].Columns[process]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].ExternalColumns[id_log]"
+                      dataType="i4"
+                      name="id_log" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].ExternalColumns[ErrorCode]"
+                      dataType="i4"
+                      name="ErrorCode" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].ExternalColumns[ErrorColumn]"
+                      dataType="i4"
+                      name="ErrorColumn" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].ExternalColumns[producto]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="producto" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].ExternalColumns[subrubro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="subrubro" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].ExternalColumns[rubro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="rubro" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB].ExternalColumns[StepInProcess]"
+                      codePage="1252"
+                      dataType="str"
+                      length="200"
+                      name="StepInProcess" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Outputs[Salida de error de destino de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de OLE DB"
+                  synchronousInputId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE"
+              componentClassID="Microsoft.OLEDBDestination"
+              contactInfo="Destino de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;4"
+              description="Destino de OLE DB"
+              name="LOG_DIM_Productos_SAVE"
+              usesDispositions="true"
+              version="4">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[dbo].[Log_DIM_Producto]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Connections[OleDbConnection]"
+                  connectionManagerID="{14AE0AD6-DC33-4E59-9876-BBA8436FFA5B}:external"
+                  connectionManagerRefId="Project.ConnectionManagers[34.176.185.229.LOG_SSIS.sqlserver]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de OLE DB">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].Columns[subrubro]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="subrubro"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].ExternalColumns[subrubro]"
+                      lineageId="Package\Datos Productos Parques\Agregado Productos Ùnicos.Outputs[Salida de agregado 1].Columns[subrubro]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].Columns[rubro]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="rubro"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].ExternalColumns[rubro]"
+                      lineageId="Package\Datos Productos Parques\Agregado Productos Ùnicos.Outputs[Salida de agregado 1].Columns[rubro]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].Columns[ErrorCode]"
+                      cachedDataType="i4"
+                      cachedName="ErrorCode"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].ExternalColumns[ErrorCode]"
+                      lineageId="Package\Datos Productos Parques\Guardar DIM_Producto.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].Columns[ErrorColumn]"
+                      cachedDataType="i4"
+                      cachedName="ErrorColumn"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].ExternalColumns[ErrorColumn]"
+                      lineageId="Package\Datos Productos Parques\Guardar DIM_Producto.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].Columns[producto]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="producto"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].ExternalColumns[producto]"
+                      lineageId="Package\Datos Productos Parques\Agregado Productos Ùnicos.Outputs[Salida de agregado 1].Columns[producto]" />
+                    <inputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].Columns[process]"
+                      cachedCodepage="1252"
+                      cachedDataType="str"
+                      cachedLength="50"
+                      cachedName="process"
+                      externalMetadataColumnId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].ExternalColumns[StepInProcess]"
+                      lineageId="Package\Datos Productos Parques\PROCESS_SAVE.Outputs[Salida de columna derivada].Columns[process]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].ExternalColumns[rubro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="rubro" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].ExternalColumns[subrubro]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="subrubro" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].ExternalColumns[id_log]"
+                      dataType="i4"
+                      name="id_log" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].ExternalColumns[ErrorCode]"
+                      dataType="i4"
+                      name="ErrorCode" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].ExternalColumns[ErrorColumn]"
+                      dataType="i4"
+                      name="ErrorColumn" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].ExternalColumns[producto]"
+                      codePage="1252"
+                      dataType="str"
+                      length="100"
+                      name="producto" />
+                    <externalMetadataColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB].ExternalColumns[StepInProcess]"
+                      codePage="1252"
+                      dataType="str"
+                      length="200"
+                      name="StepInProcess" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Outputs[Salida de error de destino de OLE DB]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de OLE DB"
+                  synchronousInputId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Outputs[Salida de error de destino de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Outputs[Salida de error de destino de OLE DB].Columns[ErrorColumn]"
                       name="ErrorColumn"
                       specialFlags="2" />
                   </outputColumns>
@@ -1078,6 +1810,306 @@
               </outputs>
             </component>
             <component
+              refId="Package\Datos Productos Parques\PROCESS_PROD_P1"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+              name="PROCESS_PROD_P1"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Datos Productos Parques\PROCESS_PROD_P1.Inputs[Entrada de columna derivada]"
+                  description="Entrada en la transformación Columna derivada"
+                  name="Entrada de columna derivada">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Datos Productos Parques\PROCESS_PROD_P1.Outputs[Salida de columna derivada]"
+                  description="Salida predeterminada de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  name="Salida de columna derivada"
+                  synchronousInputId="Package\Datos Productos Parques\PROCESS_PROD_P1.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\PROCESS_PROD_P1.Outputs[Salida de columna derivada].Columns[process]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Datos Productos Parques\PROCESS_PROD_P1.Outputs[Salida de columna derivada].Columns[process]"
+                      name="process"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">(DT_STR,50,1252)"Productos Parque 1"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_STR,50,1252)"Productos Parque 1"</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Datos Productos Parques\PROCESS_PROD_P1.Outputs[Salida de error de columna derivada]"
+                  description="Salida de error de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de columna derivada"
+                  synchronousInputId="Package\Datos Productos Parques\PROCESS_PROD_P1.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\PROCESS_PROD_P1.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Datos Productos Parques\PROCESS_PROD_P1.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\PROCESS_PROD_P1.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Datos Productos Parques\PROCESS_PROD_P1.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Datos Productos Parques\PROCESS_PROD_P2"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+              name="PROCESS_PROD_P2"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Datos Productos Parques\PROCESS_PROD_P2.Inputs[Entrada de columna derivada]"
+                  description="Entrada en la transformación Columna derivada"
+                  name="Entrada de columna derivada">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Datos Productos Parques\PROCESS_PROD_P2.Outputs[Salida de columna derivada]"
+                  description="Salida predeterminada de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  name="Salida de columna derivada"
+                  synchronousInputId="Package\Datos Productos Parques\PROCESS_PROD_P2.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\PROCESS_PROD_P2.Outputs[Salida de columna derivada].Columns[process]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Datos Productos Parques\PROCESS_PROD_P2.Outputs[Salida de columna derivada].Columns[process]"
+                      name="process"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">(DT_STR,50,1252)"Productos Parque 2"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_STR,50,1252)"Productos Parque 2"</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Datos Productos Parques\PROCESS_PROD_P2.Outputs[Salida de error de columna derivada]"
+                  description="Salida de error de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de columna derivada"
+                  synchronousInputId="Package\Datos Productos Parques\PROCESS_PROD_P2.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\PROCESS_PROD_P2.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Datos Productos Parques\PROCESS_PROD_P2.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\PROCESS_PROD_P2.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Datos Productos Parques\PROCESS_PROD_P2.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Datos Productos Parques\PROCESS_PROD_P3"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+              name="PROCESS_PROD_P3"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Datos Productos Parques\PROCESS_PROD_P3.Inputs[Entrada de columna derivada]"
+                  description="Entrada en la transformación Columna derivada"
+                  name="Entrada de columna derivada">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Datos Productos Parques\PROCESS_PROD_P3.Outputs[Salida de columna derivada]"
+                  description="Salida predeterminada de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  name="Salida de columna derivada"
+                  synchronousInputId="Package\Datos Productos Parques\PROCESS_PROD_P3.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\PROCESS_PROD_P3.Outputs[Salida de columna derivada].Columns[process]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Datos Productos Parques\PROCESS_PROD_P3.Outputs[Salida de columna derivada].Columns[process]"
+                      name="process"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">(DT_STR,50,1252)"Productos Parque 3"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_STR,50,1252)"Productos Parque 3"</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Datos Productos Parques\PROCESS_PROD_P3.Outputs[Salida de error de columna derivada]"
+                  description="Salida de error de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de columna derivada"
+                  synchronousInputId="Package\Datos Productos Parques\PROCESS_PROD_P3.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\PROCESS_PROD_P3.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Datos Productos Parques\PROCESS_PROD_P3.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\PROCESS_PROD_P3.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Datos Productos Parques\PROCESS_PROD_P3.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\Datos Productos Parques\PROCESS_SAVE"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+              name="PROCESS_SAVE"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\Datos Productos Parques\PROCESS_SAVE.Inputs[Entrada de columna derivada]"
+                  description="Entrada en la transformación Columna derivada"
+                  name="Entrada de columna derivada">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\Datos Productos Parques\PROCESS_SAVE.Outputs[Salida de columna derivada]"
+                  description="Salida predeterminada de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  name="Salida de columna derivada"
+                  synchronousInputId="Package\Datos Productos Parques\PROCESS_SAVE.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\PROCESS_SAVE.Outputs[Salida de columna derivada].Columns[process]"
+                      codePage="1252"
+                      dataType="str"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      length="50"
+                      lineageId="Package\Datos Productos Parques\PROCESS_SAVE.Outputs[Salida de columna derivada].Columns[process]"
+                      name="process"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">(DT_STR,50,1252)"Guardar DIM_Producto"</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">(DT_STR,50,1252)"Guardar DIM_Producto"</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\Datos Productos Parques\PROCESS_SAVE.Outputs[Salida de error de columna derivada]"
+                  description="Salida de error de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de columna derivada"
+                  synchronousInputId="Package\Datos Productos Parques\PROCESS_SAVE.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\PROCESS_SAVE.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\Datos Productos Parques\PROCESS_SAVE.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\Datos Productos Parques\PROCESS_SAVE.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\Datos Productos Parques\PROCESS_SAVE.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
               refId="Package\Datos Productos Parques\Productos Cargados en DW"
               componentClassID="Microsoft.Lookup"
               contactInfo="Búsqueda;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;6"
@@ -1326,34 +2358,34 @@ order by p.id_subcategoria</property>
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       externalMetadataColumnId="Package\Datos Productos Parques\Productos Parque 1.Outputs[Salida de origen de OLE DB].ExternalColumns[subrubro]"
                       length="50"
                       lineageId="Package\Datos Productos Parques\Productos Parque 1.Outputs[Salida de origen de OLE DB].Columns[subrubro]"
                       name="subrubro"
-                      truncationRowDisposition="FailComponent" />
+                      truncationRowDisposition="RedirectRow" />
                     <outputColumn
                       refId="Package\Datos Productos Parques\Productos Parque 1.Outputs[Salida de origen de OLE DB].Columns[rubro]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       externalMetadataColumnId="Package\Datos Productos Parques\Productos Parque 1.Outputs[Salida de origen de OLE DB].ExternalColumns[rubro]"
                       length="50"
                       lineageId="Package\Datos Productos Parques\Productos Parque 1.Outputs[Salida de origen de OLE DB].Columns[rubro]"
                       name="rubro"
-                      truncationRowDisposition="FailComponent" />
+                      truncationRowDisposition="RedirectRow" />
                     <outputColumn
                       refId="Package\Datos Productos Parques\Productos Parque 1.Outputs[Salida de origen de OLE DB].Columns[producto]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       externalMetadataColumnId="Package\Datos Productos Parques\Productos Parque 1.Outputs[Salida de origen de OLE DB].ExternalColumns[producto]"
                       length="50"
                       lineageId="Package\Datos Productos Parques\Productos Parque 1.Outputs[Salida de origen de OLE DB].Columns[producto]"
                       name="producto"
-                      truncationRowDisposition="FailComponent" />
+                      truncationRowDisposition="RedirectRow" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1490,34 +2522,34 @@ order by p.cod_subcat</property>
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       externalMetadataColumnId="Package\Datos Productos Parques\Productos Parque 2.Outputs[Salida de origen de OLE DB].ExternalColumns[subrubro]"
                       length="50"
                       lineageId="Package\Datos Productos Parques\Productos Parque 2.Outputs[Salida de origen de OLE DB].Columns[subrubro]"
                       name="subrubro"
-                      truncationRowDisposition="FailComponent" />
+                      truncationRowDisposition="RedirectRow" />
                     <outputColumn
                       refId="Package\Datos Productos Parques\Productos Parque 2.Outputs[Salida de origen de OLE DB].Columns[rubro]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       externalMetadataColumnId="Package\Datos Productos Parques\Productos Parque 2.Outputs[Salida de origen de OLE DB].ExternalColumns[rubro]"
                       length="50"
                       lineageId="Package\Datos Productos Parques\Productos Parque 2.Outputs[Salida de origen de OLE DB].Columns[rubro]"
                       name="rubro"
-                      truncationRowDisposition="FailComponent" />
+                      truncationRowDisposition="RedirectRow" />
                     <outputColumn
                       refId="Package\Datos Productos Parques\Productos Parque 2.Outputs[Salida de origen de OLE DB].Columns[producto]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       externalMetadataColumnId="Package\Datos Productos Parques\Productos Parque 2.Outputs[Salida de origen de OLE DB].ExternalColumns[producto]"
                       length="50"
                       lineageId="Package\Datos Productos Parques\Productos Parque 2.Outputs[Salida de origen de OLE DB].Columns[producto]"
                       name="producto"
-                      truncationRowDisposition="FailComponent" />
+                      truncationRowDisposition="RedirectRow" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1654,34 +2686,34 @@ order by p.cod_subcat</property>
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       externalMetadataColumnId="Package\Datos Productos Parques\Productos Parque 3.Outputs[Salida de origen de OLE DB].ExternalColumns[subrubro]"
                       length="50"
                       lineageId="Package\Datos Productos Parques\Productos Parque 3.Outputs[Salida de origen de OLE DB].Columns[subrubro]"
                       name="subrubro"
-                      truncationRowDisposition="FailComponent" />
+                      truncationRowDisposition="RedirectRow" />
                     <outputColumn
                       refId="Package\Datos Productos Parques\Productos Parque 3.Outputs[Salida de origen de OLE DB].Columns[rubro]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       externalMetadataColumnId="Package\Datos Productos Parques\Productos Parque 3.Outputs[Salida de origen de OLE DB].ExternalColumns[rubro]"
                       length="50"
                       lineageId="Package\Datos Productos Parques\Productos Parque 3.Outputs[Salida de origen de OLE DB].Columns[rubro]"
                       name="rubro"
-                      truncationRowDisposition="FailComponent" />
+                      truncationRowDisposition="RedirectRow" />
                     <outputColumn
                       refId="Package\Datos Productos Parques\Productos Parque 3.Outputs[Salida de origen de OLE DB].Columns[producto]"
                       codePage="1252"
                       dataType="str"
                       errorOrTruncationOperation="Conversión"
-                      errorRowDisposition="FailComponent"
+                      errorRowDisposition="RedirectRow"
                       externalMetadataColumnId="Package\Datos Productos Parques\Productos Parque 3.Outputs[Salida de origen de OLE DB].ExternalColumns[producto]"
                       length="50"
                       lineageId="Package\Datos Productos Parques\Productos Parque 3.Outputs[Salida de origen de OLE DB].Columns[producto]"
                       name="producto"
-                      truncationRowDisposition="FailComponent" />
+                      truncationRowDisposition="RedirectRow" />
                   </outputColumns>
                   <externalMetadataColumns
                     isUsed="True">
@@ -1756,35 +2788,75 @@ order by p.cod_subcat</property>
               name="Salida de agregado 1"
               startId="Package\Datos Productos Parques\Agregado Productos Ùnicos.Outputs[Salida de agregado 1]" />
             <path
+              refId="Package\Datos Productos Parques.Paths[Salida de columna derivada]"
+              endId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3.Inputs[Entrada de destino de OLE DB]"
+              name="Salida de columna derivada"
+              startId="Package\Datos Productos Parques\PROCESS_PROD_P3.Outputs[Salida de columna derivada]" />
+            <path
+              refId="Package\Datos Productos Parques.Paths[Salida de columna derivada1]"
+              endId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2.Inputs[Entrada de destino de OLE DB]"
+              name="Salida de columna derivada"
+              startId="Package\Datos Productos Parques\PROCESS_PROD_P2.Outputs[Salida de columna derivada]" />
+            <path
+              refId="Package\Datos Productos Parques.Paths[Salida de columna derivada2]"
+              endId="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1.Inputs[Entrada de destino de OLE DB]"
+              name="Salida de columna derivada"
+              startId="Package\Datos Productos Parques\PROCESS_PROD_P1.Outputs[Salida de columna derivada]" />
+            <path
+              refId="Package\Datos Productos Parques.Paths[Salida de columna derivada3]"
+              endId="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE.Inputs[Entrada de destino de OLE DB]"
+              name="Salida de columna derivada"
+              startId="Package\Datos Productos Parques\PROCESS_SAVE.Outputs[Salida de columna derivada]" />
+            <path
               refId="Package\Datos Productos Parques.Paths[Salida de entradas no coincidentes de búsqueda]"
-              endId="Package\Datos Productos Parques\Destino de OLE DB.Inputs[Entrada de destino de OLE DB]"
+              endId="Package\Datos Productos Parques\Guardar DIM_Producto.Inputs[Entrada de destino de OLE DB]"
               name="Salida de entradas no coincidentes de búsqueda"
               startId="Package\Datos Productos Parques\Productos Cargados en DW.Outputs[Salida de entradas no coincidentes de búsqueda]" />
             <path
-              refId="Package\Datos Productos Parques.Paths[Salida de Mezclar 1]"
-              endId="Package\Datos Productos Parques\Mezclar_P1P2yP3.Inputs[Entrada de Mezclar 1]"
-              name="Salida de Mezclar 1"
-              startId="Package\Datos Productos Parques\Mezcla_P1yP2.Outputs[Salida de Mezclar 1]" />
+              refId="Package\Datos Productos Parques.Paths[Salida de error de destino de OLE DB]"
+              endId="Package\Datos Productos Parques\PROCESS_SAVE.Inputs[Entrada de columna derivada]"
+              name="Salida de error de destino de OLE DB"
+              startId="Package\Datos Productos Parques\Guardar DIM_Producto.Outputs[Salida de error de destino de OLE DB]" />
             <path
-              refId="Package\Datos Productos Parques.Paths[Salida de Mezclar 11]"
+              refId="Package\Datos Productos Parques.Paths[Salida de error de origen de OLE DB2]"
+              endId="Package\Datos Productos Parques\PROCESS_PROD_P3.Inputs[Entrada de columna derivada]"
+              name="Salida de error de origen de OLE DB"
+              startId="Package\Datos Productos Parques\Productos Parque 3.Outputs[Salida de error de origen de OLE DB]" />
+            <path
+              refId="Package\Datos Productos Parques.Paths[Salida de error de origen de OLE DB1]"
+              endId="Package\Datos Productos Parques\PROCESS_PROD_P2.Inputs[Entrada de columna derivada]"
+              name="Salida de error de origen de OLE DB"
+              startId="Package\Datos Productos Parques\Productos Parque 2.Outputs[Salida de error de origen de OLE DB]" />
+            <path
+              refId="Package\Datos Productos Parques.Paths[Salida de error de origen de OLE DB]"
+              endId="Package\Datos Productos Parques\PROCESS_PROD_P1.Inputs[Entrada de columna derivada]"
+              name="Salida de error de origen de OLE DB"
+              startId="Package\Datos Productos Parques\Productos Parque 1.Outputs[Salida de error de origen de OLE DB]" />
+            <path
+              refId="Package\Datos Productos Parques.Paths[Salida de Mezclar 1]"
               endId="Package\Datos Productos Parques\Agregado Productos Ùnicos.Inputs[Entrada de agregado 1]"
               name="Salida de Mezclar 1"
               startId="Package\Datos Productos Parques\Mezclar_P1P2yP3.Outputs[Salida de Mezclar 1]" />
             <path
-              refId="Package\Datos Productos Parques.Paths[Salida de ordenación]"
-              endId="Package\Datos Productos Parques\Mezcla_P1yP2.Inputs[Entrada de Mezclar 1]"
-              name="Salida de ordenación"
-              startId="Package\Datos Productos Parques\Ord_Productos_Parque1.Outputs[Salida de ordenación]" />
+              refId="Package\Datos Productos Parques.Paths[Salida de Mezclar 11]"
+              endId="Package\Datos Productos Parques\Mezclar_P1P2yP3.Inputs[Entrada de Mezclar 1]"
+              name="Salida de Mezclar 1"
+              startId="Package\Datos Productos Parques\Mezcla_P1yP2.Outputs[Salida de Mezclar 1]" />
             <path
-              refId="Package\Datos Productos Parques.Paths[Salida de ordenación1]"
+              refId="Package\Datos Productos Parques.Paths[Salida de ordenación]"
               endId="Package\Datos Productos Parques\Mezcla_P1yP2.Inputs[Entrada de Mezclar 2]"
               name="Salida de ordenación"
               startId="Package\Datos Productos Parques\Ord_Productos_Parque2.Outputs[Salida de ordenación]" />
             <path
-              refId="Package\Datos Productos Parques.Paths[Salida de ordenación2]"
+              refId="Package\Datos Productos Parques.Paths[Salida de ordenación1]"
               endId="Package\Datos Productos Parques\Mezclar_P1P2yP3.Inputs[Entrada de Mezclar 2]"
               name="Salida de ordenación"
               startId="Package\Datos Productos Parques\Ord_Productos_Parque3.Outputs[Salida de ordenación]" />
+            <path
+              refId="Package\Datos Productos Parques.Paths[Salida de ordenación2]"
+              endId="Package\Datos Productos Parques\Mezcla_P1yP2.Inputs[Entrada de Mezclar 1]"
+              name="Salida de ordenación"
+              startId="Package\Datos Productos Parques\Ord_Productos_Parque1.Outputs[Salida de ordenación]" />
             <path
               refId="Package\Datos Productos Parques.Paths[Salida de origen de OLE DB]"
               endId="Package\Datos Productos Parques\Ord_Productos_Parque1.Inputs[Entrada de ordenación]"
@@ -1792,14 +2864,14 @@ order by p.cod_subcat</property>
               startId="Package\Datos Productos Parques\Productos Parque 1.Outputs[Salida de origen de OLE DB]" />
             <path
               refId="Package\Datos Productos Parques.Paths[Salida de origen de OLE DB1]"
-              endId="Package\Datos Productos Parques\Ord_Productos_Parque2.Inputs[Entrada de ordenación]"
-              name="Salida de origen de OLE DB"
-              startId="Package\Datos Productos Parques\Productos Parque 2.Outputs[Salida de origen de OLE DB]" />
-            <path
-              refId="Package\Datos Productos Parques.Paths[Salida de origen de OLE DB2]"
               endId="Package\Datos Productos Parques\Ord_Productos_Parque3.Inputs[Entrada de ordenación]"
               name="Salida de origen de OLE DB"
               startId="Package\Datos Productos Parques\Productos Parque 3.Outputs[Salida de origen de OLE DB]" />
+            <path
+              refId="Package\Datos Productos Parques.Paths[Salida de origen de OLE DB2]"
+              endId="Package\Datos Productos Parques\Ord_Productos_Parque2.Inputs[Entrada de ordenación]"
+              name="Salida de origen de OLE DB"
+              startId="Package\Datos Productos Parques\Productos Parque 2.Outputs[Salida de origen de OLE DB]" />
           </paths>
         </pipeline>
       </DTS:ObjectData>
@@ -1828,124 +2900,86 @@ order by p.cod_subcat</property>
     design-time-name="Package\Datos Productos Parques">
     <LayoutInfo>
       <GraphLayout
-        Capacity="32" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="64" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
-          Size="193,42"
-          Id="Package\Datos Productos Parques\Ord_Productos_Parque1"
-          TopLeft="265,139" />
+          Size="208,42"
+          Id="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P2"
+          TopLeft="752,237" />
         <NodeLayout
-          Size="161,42"
-          Id="Package\Datos Productos Parques\Mezclar_P1P2yP3"
-          TopLeft="615,336" />
-        <NodeLayout
-          Size="168,42"
-          Id="Package\Datos Productos Parques\Destino de OLE DB"
-          TopLeft="609,618" />
-        <NodeLayout
-          Size="171,42"
-          Id="Package\Datos Productos Parques\Productos Parque 3"
-          TopLeft="751,70" />
+          Size="207,42"
+          Id="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE"
+          TopLeft="1151,704" />
         <NodeLayout
           Size="208,42"
           Id="Package\Datos Productos Parques\Productos Cargados en DW"
-          TopLeft="588,492" />
-        <NodeLayout
-          Size="193,42"
-          Id="Package\Datos Productos Parques\Ord_Productos_Parque2"
-          TopLeft="527,144" />
-        <NodeLayout
-          Size="145,42"
-          Id="Package\Datos Productos Parques\Mezcla_P1yP2"
-          TopLeft="395,235" />
-        <NodeLayout
-          Size="171,42"
-          Id="Package\Datos Productos Parques\Productos Parque 1"
-          TopLeft="276,64" />
-        <NodeLayout
-          Size="208,42"
-          Id="Package\Datos Productos Parques\Agregado Productos Ùnicos"
-          TopLeft="595,413" />
+          TopLeft="621,492" />
         <NodeLayout
           Size="193,42"
           Id="Package\Datos Productos Parques\Ord_Productos_Parque3"
-          TopLeft="742,138" />
+          TopLeft="1005,144" />
+        <NodeLayout
+          Size="187,42"
+          Id="Package\Datos Productos Parques\Guardar DIM_Producto"
+          TopLeft="642,618" />
         <NodeLayout
           Size="171,42"
           Id="Package\Datos Productos Parques\Productos Parque 2"
-          TopLeft="537,68" />
-        <EdgeLayout
-          Id="Package\Datos Productos Parques.Paths[Salida de entradas no coincidentes de búsqueda]"
-          TopLeft="692.5,534">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,84"
-              Start="0,0"
-              End="0,76.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,76.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-106.8890234375,32.15234375,213.778046875,12.1953125"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Datos Productos Parques.Paths[Salida de agregado 1]"
-          TopLeft="695.5,455">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,37"
-              Start="0,0"
-              End="0,29.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,29.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-15.45359375,9.9658203125,30.9071875,9.568359375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          TopLeft="570,68" />
+        <NodeLayout
+          Size="193,42"
+          Id="Package\Datos Productos Parques\Ord_Productos_Parque1"
+          TopLeft="298,139" />
+        <NodeLayout
+          Size="161,42"
+          Id="Package\Datos Productos Parques\Mezclar_P1P2yP3"
+          TopLeft="648,336" />
+        <NodeLayout
+          Size="154,42"
+          Id="Package\Datos Productos Parques\PROCESS_SAVE"
+          TopLeft="861,705" />
+        <NodeLayout
+          Size="174,42"
+          Id="Package\Datos Productos Parques\PROCESS_PROD_P2"
+          TopLeft="771,146" />
+        <NodeLayout
+          Size="208,42"
+          Id="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1"
+          TopLeft="59,237" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Datos Productos Parques\Productos Parque 3"
+          TopLeft="1014,76" />
+        <NodeLayout
+          Size="174,42"
+          Id="Package\Datos Productos Parques\PROCESS_PROD_P1"
+          TopLeft="78,146" />
+        <NodeLayout
+          Size="174,42"
+          Id="Package\Datos Productos Parques\PROCESS_PROD_P3"
+          TopLeft="1237,149" />
+        <NodeLayout
+          Size="193,42"
+          Id="Package\Datos Productos Parques\Ord_Productos_Parque2"
+          TopLeft="560,144" />
+        <NodeLayout
+          Size="145,42"
+          Id="Package\Datos Productos Parques\Mezcla_P1yP2"
+          TopLeft="428,235" />
+        <NodeLayout
+          Size="171,42"
+          Id="Package\Datos Productos Parques\Productos Parque 1"
+          TopLeft="309,64" />
+        <NodeLayout
+          Size="208,42"
+          Id="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P3"
+          TopLeft="1218,240" />
+        <NodeLayout
+          Size="208,42"
+          Id="Package\Datos Productos Parques\Agregado Productos Ùnicos"
+          TopLeft="628,413" />
         <EdgeLayout
           Id="Package\Datos Productos Parques.Paths[Salida de origen de OLE DB2]"
-          TopLeft="837.5,112">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,26"
-              Start="0,0"
-              End="0,18.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,18.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Datos Productos Parques.Paths[Salida de origen de OLE DB1]"
-          TopLeft="623,110">
+          TopLeft="656,110">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1966,8 +3000,30 @@ order by p.cod_subcat</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\Datos Productos Parques.Paths[Salida de origen de OLE DB1]"
+          TopLeft="1100.5,118">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,26"
+              Start="0,0"
+              End="0,18.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\Datos Productos Parques.Paths[Salida de origen de OLE DB]"
-          TopLeft="361.5,106">
+          TopLeft="394.5,106">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1989,77 +3045,7 @@ order by p.cod_subcat</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Datos Productos Parques.Paths[Salida de ordenación2]"
-          TopLeft="838.5,180">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-117.5,156"
-              Start="0,0"
-              End="-117.5,148.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,88.6789667896679" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,88.6789667896679"
-                    Point2="0,92.6789667896679"
-                    Point3="-4,92.6789667896679" />
-                  <mssgle:LineSegment
-                    End="-113.5,92.6789667896679" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-113.5,92.6789667896679"
-                    Point2="-117.5,92.6789667896679"
-                    Point3="-117.5,96.6789667896679" />
-                  <mssgle:LineSegment
-                    End="-117.5,148.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Datos Productos Parques.Paths[Salida de ordenación1]"
-          TopLeft="623.5,186">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-133.166666666667,49"
-              Start="0,0"
-              End="-133.166666666667,41.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,25.0791268758527" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,25.0791268758527"
-                    Point2="0,29.0791268758527"
-                    Point3="-4,29.0791268758527" />
-                  <mssgle:LineSegment
-                    End="-129.166666666667,29.0791268758527" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-129.166666666667,29.0791268758527"
-                    Point2="-133.166666666667,29.0791268758527"
-                    Point3="-133.166666666667,33.0791268758527" />
-                  <mssgle:LineSegment
-                    End="-133.166666666667,41.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-84.7888997395835,34.0791268758527,36.4111328125,9.6025390625"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Datos Productos Parques.Paths[Salida de ordenación]"
-          TopLeft="361.5,181">
+          TopLeft="394.5,181">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2092,19 +3078,31 @@ order by p.cod_subcat</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Datos Productos Parques.Paths[Salida de Mezclar 11]"
-          TopLeft="697.25,378">
+          Id="Package\Datos Productos Parques.Paths[Salida de ordenación1]"
+          TopLeft="1101.5,186">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,35"
+              EndConnector="-347.5,150"
               Start="0,0"
-              End="0,27.5">
+              End="-347.5,142.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,27.5" />
+                    End="0,116.114391143911" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,116.114391143911"
+                    Point2="0,120.114391143911"
+                    Point3="-4,120.114391143911" />
+                  <mssgle:LineSegment
+                    End="-343.5,120.114391143911" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-343.5,120.114391143911"
+                    Point2="-347.5,120.114391143911"
+                    Point3="-347.5,124.114391143911" />
+                  <mssgle:LineSegment
+                    End="-347.5,142.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2114,8 +3112,42 @@ order by p.cod_subcat</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Datos Productos Parques.Paths[Salida de Mezclar 1]"
-          TopLeft="467.5,277">
+          Id="Package\Datos Productos Parques.Paths[Salida de ordenación]"
+          TopLeft="656.5,186">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-133.166666666667,49"
+              Start="0,0"
+              End="-133.166666666667,41.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,25.0791268758527" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,25.0791268758527"
+                    Point2="0,29.0791268758527"
+                    Point3="-4,29.0791268758527" />
+                  <mssgle:LineSegment
+                    End="-129.166666666667,29.0791268758527" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-129.166666666667,29.0791268758527"
+                    Point2="-133.166666666667,29.0791268758527"
+                    Point3="-133.166666666667,33.0791268758527" />
+                  <mssgle:LineSegment
+                    End="-133.166666666667,41.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Datos Productos Parques.Paths[Salida de Mezclar 11]"
+          TopLeft="500.5,277">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -2144,14 +3176,337 @@ order by p.cod_subcat</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Datos Productos Parques.Paths[Salida de Mezclar 1]"
+          TopLeft="730.25,378">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,35"
+              Start="0,0"
+              End="0,27.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,27.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Datos Productos Parques.Paths[Salida de error de origen de OLE DB2]"
+          TopLeft="1126.66666666667,118">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="197.333333333333,31"
+              Start="0,0"
+              End="197.333333333333,23.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,8.57242178447277" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,8.57242178447277"
+                    Point2="0,12.5724217844728"
+                    Point3="4,12.5724217844728" />
+                  <mssgle:LineSegment
+                    End="193.333333333333,12.5724217844728" />
+                  <mssgle:CubicBezierSegment
+                    Point1="193.333333333333,12.5724217844728"
+                    Point2="197.333333333333,12.5724217844728"
+                    Point3="197.333333333333,16.5724217844728" />
+                  <mssgle:LineSegment
+                    End="197.333333333333,23.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="80.68552734375,40.0516605166052,41.1289453125,9.568359375"
+              BoundingBox="17.9751822916666,17.5724217844728,161.38296875,11.6630859375"
               RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Datos Productos Parques.Paths[Salida de error de origen de OLE DB1]"
+          TopLeft="682.666666666667,110">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="175.333333333333,36"
+              Start="0,0"
+              End="175.333333333333,28.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,10.6002317497103" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,10.6002317497103"
+                    Point2="0,14.6002317497103"
+                    Point3="4,14.6002317497103" />
+                  <mssgle:LineSegment
+                    End="171.333333333333,14.6002317497103" />
+                  <mssgle:CubicBezierSegment
+                    Point1="171.333333333333,14.6002317497103"
+                    Point2="175.333333333333,14.6002317497103"
+                    Point3="175.333333333333,18.6002317497103" />
+                  <mssgle:LineSegment
+                    End="175.333333333333,28.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="6.97518229166668,19.6002317497103,161.38296875,11.6630859375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Datos Productos Parques.Paths[Salida de error de origen de OLE DB]"
+          TopLeft="367.333333333333,106">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-202.333333333333,40"
+              Start="0,0"
+              End="-202.333333333333,32.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,12.2224797219003" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12.2224797219003"
+                    Point2="0,16.2224797219003"
+                    Point3="-4,16.2224797219003" />
+                  <mssgle:LineSegment
+                    End="-198.333333333333,16.2224797219003" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-198.333333333333,16.2224797219003"
+                    Point2="-202.333333333333,16.2224797219003"
+                    Point3="-202.333333333333,20.2224797219003" />
+                  <mssgle:LineSegment
+                    End="-202.333333333333,32.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-181.858151041667,21.2224797219003,161.38296875,11.6630859375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Datos Productos Parques.Paths[Salida de error de destino de OLE DB]"
+          TopLeft="735.5,660">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="202.5,45"
+              Start="0,0"
+              End="202.5,37.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,18.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,18.5"
+                    Point2="0,22.5"
+                    Point3="4,22.5" />
+                  <mssgle:LineSegment
+                    End="198.5,22.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="198.5,22.5"
+                    Point2="202.5,22.5"
+                    Point3="202.5,26.5" />
+                  <mssgle:LineSegment
+                    End="202.5,37.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="18.458515625,27.5,165.58296875,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Datos Productos Parques.Paths[Salida de entradas no coincidentes de búsqueda]"
+          TopLeft="725,534">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="10.5,84"
+              Start="0,0"
+              End="10.5,76.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,38"
+                    Point2="0,42"
+                    Point3="4,42" />
+                  <mssgle:LineSegment
+                    End="6.5,42" />
+                  <mssgle:CubicBezierSegment
+                    Point1="6.5,42"
+                    Point2="10.5,42"
+                    Point3="10.5,46" />
+                  <mssgle:LineSegment
+                    End="10.5,76.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-101.6390234375,47,213.778046875,12.1953125"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Datos Productos Parques.Paths[Salida de columna derivada3]"
+          TopLeft="1015,725.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="136,0"
+              Start="0,0"
+              End="128.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="128.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Datos Productos Parques.Paths[Salida de columna derivada2]"
+          TopLeft="164,188">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,49"
+              Start="0,0"
+              End="0,41.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,41.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Datos Productos Parques.Paths[Salida de columna derivada1]"
+          TopLeft="857,188">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,49"
+              Start="0,0"
+              End="0,41.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,41.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Datos Productos Parques.Paths[Salida de columna derivada]"
+          TopLeft="1323,191">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,49"
+              Start="0,0"
+              End="0,41.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,41.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Datos Productos Parques.Paths[Salida de agregado 1]"
+          TopLeft="728.5,455">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,37"
+              Start="0,0"
+              End="0,29.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,29.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
     </LayoutInfo>
   </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Datos Productos Parques\LOG_DIM_Productos_SAVE">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Datos Productos Parques\Productos Cargados en DW">
     <Properties>
@@ -2176,7 +3531,7 @@ order by p.cod_subcat</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Datos Productos Parques\Destino de OLE DB">
+    design-time-name="Package\Datos Productos Parques\Guardar DIM_Producto">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -2189,7 +3544,7 @@ order by p.cod_subcat</property>
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Datos Productos Parques\Productos Parque 1">
+    design-time-name="Package\Datos Productos Parques\LOG_DIM_PRODUCTOS_P1">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -2206,6 +3561,19 @@ order by p.cod_subcat</property>
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Datos Productos Parques\Productos Parque 1">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
       </Property>
     </Properties>
   </PipelineComponentMetadata>
