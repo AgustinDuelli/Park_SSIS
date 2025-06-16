@@ -11,8 +11,8 @@
   DTS:LocaleID="11274"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="167"
-  DTS:VersionGUID="{CDB01F2D-CB5E-4367-967F-0E96076E8390}">
+  DTS:VersionBuild="169"
+  DTS:VersionGUID="{425AAC7B-11DF-42AD-96D5-F58D1E5D78AB}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAT1QLX+eAwEGbWxYArmVooQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABNRApLb5VD/PV5pFvCe3JUNsRLRwBTRUmYMHKl6TxTCQAAAAAOgAAAAAIAACAAAAB/zfML/5B8f9bJRyBWw3jA+ntSJRfvSveHsvf645p6tDAAAAAsnv4TZkm05oG+J0iNKyUdNxfsM4e5gJ1NMnhsno56qkKdHsQFv+sArFKFzmlsQT5AAAAAa8AGMZQkFeoT7uEgvnc4JXLOTNZORfkeDDuyUegUj5bA5gKLpM73v1u6YvhOBVqzuKKb45Ro/0MB/IJgusHLyA</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAT1QLX+eAwEGbWxYArmVooQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACIdcJFZTvP76DNFNalHKDILHBRz1tldM9RYZnGyWgQFgAAAAAOgAAAAAIAACAAAABqW9VdulEOxHftrxsPLDqA3a5GLB2KEkSDpquXwg/+pTAAAAD6J5ZgTy9DD/0ssqzIlgzLC1nhVT56VRibAYSHGUApaIdK2lXiJpNP8jEUiv6/B+tAAAAALKZtp7ALH+WIGHi+Fjlun0ZV+F2UjsD88csZwjHPfPLsXY+lCzwyS4ehLJNfCQIsvSw6JZ/mYHWuZWFsiwL3zQ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAT1QLX+eAwEGbWxYArmVooQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABJhBSIOt3kVUpZWkTlgF1W9BTGfDOfIIBzoHfbrDqrHwAAAAAOgAAAAAIAACAAAAACbixjXSNLZaJkZsfnUhai14bUQ4BWp2/6iM/DCQHOoDAAAADGhk0QmktZ0u50MV+9nVC7vj2yvoZrh2LbIsFpGQTuBC6qGjpkl/kGQFpT6vqJqZJAAAAAf+dOnd4nQN4IFSQ6U6TwTgDlYoCiQ43dJtYXRyJazxoQgMtz9OKCh2OdzZYh/BjxTZ7yhckJbgQaSkz0ZbsJvQ</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAT1QLX+eAwEGbWxYArmVooQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACmpLLXdb10iPoA7UVyQsaxRmIkFd0plshsFcCn24UWswAAAAAOgAAAAAIAACAAAADFcj4F+5bXI3a/zuM6SzRC8am/U+FOAvDtSDUtx05/4DAAAAA7Ma72sQS0UE1BI16PSnArsnXW0KHe9SfBXcm4lezEwGsmRFzlCEg5qg/KAs86PU5AAAAAnUlExwg1Yl3ScESxc/y1ZWfQ386WAMaR6CnSbZhgCTK0NO6RQfY/FNrvUPVR4YWn5CbsHeFVtadxEItKMMTF7Q</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -10803,39 +10803,39 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Entradas\Datos Entradas\Agregado de Métricas.Outputs[Salida de agregado 1]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada17]"
+                  endId="Package\Carga hechos Entradas\Datos Entradas\LOG_Entradas_COL_EMP_HOUR.Inputs[Entrada de destino de OLE DB]"
+                  name="Salida de columna derivada"
+                  startId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_EMP_ADD_HOUR_RANGE.Outputs[Salida de columna derivada]" />
+                <path
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada16]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\LOG_Entradas_COL_EMP.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_EMP.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada16]"
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada15]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\LOG_Entradas_COL_ESC.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_ESC.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada15]"
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada14]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\LOG_Entradas_COL_ESC_TYPE.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_ESC_ADD_TYPE.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada14]"
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada13]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\LOG_Entradas_TIME.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_TIME.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada13]"
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada12]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\LOG_Entradas_CONVERT_SALE_AMOUNT.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_CONVERT_SALE_AMOUNT.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada12]"
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada11]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\LOG_Entradas_COL_DEFAULT.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_DEFAULT.Outputs[Salida de columna derivada]" />
-                <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada11]"
-                  endId="Package\Carga hechos Entradas\Datos Entradas\LOG_Entradas_SAVE.Inputs[Entrada de destino de OLE DB]"
-                  name="Salida de columna derivada"
-                  startId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_SAVE.Outputs[Salida de columna derivada]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada9]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\LOG_Productos_COL_P1.Inputs[Entrada de destino de OLE DB]"
@@ -10843,9 +10843,9 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_ADD_P1.Outputs[Salida de columna derivada]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada10]"
-                  endId="Package\Carga hechos Entradas\Datos Entradas\LOG_Entradas_COL_EMP_HOUR.Inputs[Entrada de destino de OLE DB]"
+                  endId="Package\Carga hechos Entradas\Datos Entradas\LOG_Entradas_SAVE.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
-                  startId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_EMP_ADD_HOUR_RANGE.Outputs[Salida de columna derivada]" />
+                  startId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_SAVE.Outputs[Salida de columna derivada]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada7]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\LOG_Entradas_P2.Inputs[Entrada de destino de OLE DB]"
@@ -10853,44 +10853,44 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_L_P2.Outputs[Salida de columna derivada]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada6]"
-                  endId="Package\Carga hechos Entradas\Datos Entradas\Ord_Entradas_2.Inputs[Entrada de ordenación]"
-                  name="Salida de columna derivada"
-                  startId="Package\Carga hechos Entradas\Datos Entradas\Agregar datos Parque 2.Outputs[Salida de columna derivada]" />
-                <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada5]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\Ord_Entradas_3.Inputs[Entrada de ordenación]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Entradas\Datos Entradas\Agregar datos Parque 3.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada4]"
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada5]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\Ord_Entradas_1.Inputs[Entrada de ordenación]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Entradas\Datos Entradas\Agregar datos Parque 1.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada3]"
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada4]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\LOG_Entradas_P1.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_E_P1.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada2]"
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada3]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\Combinación Entrada Escuela.Inputs[Entrada derecha de combinación de mezcla]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Entradas\Datos Entradas\Tipo Escuela.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada1]"
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada2]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\Ord_Empleados.Inputs[Entrada de ordenación]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Entradas\Datos Entradas\Agregar rango horas.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada]"
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada1]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\LOG_Entradas_P3.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_L_P3.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada8]"
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\Agregado Final.Inputs[Entrada de agregado 1]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Entradas\Datos Entradas\Valor default para dimensiones.Outputs[Salida de columna derivada]" />
+                <path
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada8]"
+                  endId="Package\Carga hechos Entradas\Datos Entradas\Ord_Entradas_2.Inputs[Entrada de ordenación]"
+                  name="Salida de columna derivada"
+                  startId="Package\Carga hechos Entradas\Datos Entradas\Agregar datos Parque 2.Outputs[Salida de columna derivada]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de combinación de mezcla]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\Valor default para dimensiones.Inputs[Entrada de columna derivada]"
@@ -10913,24 +10913,24 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Entradas\Datos Entradas\Conversión Dato cantidadVenta.Outputs[Salida de conversión de datos]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de error de columna derivada3]"
-                  endId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_EMP_ADD_HOUR_RANGE.Inputs[Entrada de columna derivada]"
-                  name="Salida de error de columna derivada"
-                  startId="Package\Carga hechos Entradas\Datos Entradas\Agregar rango horas.Outputs[Salida de error de columna derivada]" />
-                <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de error de columna derivada2]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_ADD_P1.Inputs[Entrada de columna derivada]"
                   name="Salida de error de columna derivada"
                   startId="Package\Carga hechos Entradas\Datos Entradas\Agregar datos Parque 1.Outputs[Salida de error de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de error de columna derivada]"
-                  endId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_DEFAULT.Inputs[Entrada de columna derivada]"
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de error de columna derivada2]"
+                  endId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_EMP_ADD_HOUR_RANGE.Inputs[Entrada de columna derivada]"
                   name="Salida de error de columna derivada"
-                  startId="Package\Carga hechos Entradas\Datos Entradas\Valor default para dimensiones.Outputs[Salida de error de columna derivada]" />
+                  startId="Package\Carga hechos Entradas\Datos Entradas\Agregar rango horas.Outputs[Salida de error de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de error de columna derivada1]"
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de error de columna derivada]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_ESC_ADD_TYPE.Inputs[Entrada de columna derivada]"
                   name="Salida de error de columna derivada"
                   startId="Package\Carga hechos Entradas\Datos Entradas\Tipo Escuela.Outputs[Salida de error de columna derivada]" />
+                <path
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de error de columna derivada1]"
+                  endId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_COL_DEFAULT.Inputs[Entrada de columna derivada]"
+                  name="Salida de error de columna derivada"
+                  startId="Package\Carga hechos Entradas\Datos Entradas\Valor default para dimensiones.Outputs[Salida de error de columna derivada]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de error de conversión de datos]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\PROCESS_CONVERT_SALE_AMOUNT.Inputs[Entrada de columna derivada]"
@@ -10983,14 +10983,14 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Entradas\Datos Entradas\Mezclar P1yP2 con P3.Outputs[Salida de Mezclar 1]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación8]"
+                  endId="Package\Carga hechos Entradas\Datos Entradas\Combinación Entrada Escuela.Inputs[Entrada izquierda de combinación de mezcla]"
+                  name="Salida de ordenación"
+                  startId="Package\Carga hechos Entradas\Datos Entradas\Ord_Productos_Parques_Escuela.Outputs[Salida de ordenación]" />
+                <path
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación7]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\Combinación Entrada Tiempo_DW.Inputs[Entrada izquierda de combinación de mezcla]"
                   name="Salida de ordenación"
                   startId="Package\Carga hechos Entradas\Datos Entradas\Ord_Entradas_Parques_Tiempo.Outputs[Salida de ordenación]" />
-                <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación7]"
-                  endId="Package\Carga hechos Entradas\Datos Entradas\Combinación Entradas Empleado.Inputs[Entrada izquierda de combinación de mezcla]"
-                  name="Salida de ordenación"
-                  startId="Package\Carga hechos Entradas\Datos Entradas\Ord_Entradas_Parques_Empleado.Outputs[Salida de ordenación]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación6]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\Tipo Escuela.Inputs[Entrada de columna derivada]"
@@ -11003,9 +11003,9 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Entradas\Datos Entradas\Ord_Empleados.Outputs[Salida de ordenación]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación1]"
-                  endId="Package\Carga hechos Entradas\Datos Entradas\Combinación Entrada Escuela.Inputs[Entrada izquierda de combinación de mezcla]"
+                  endId="Package\Carga hechos Entradas\Datos Entradas\Mezclar P1 con P2.Inputs[Entrada de Mezclar 1]"
                   name="Salida de ordenación"
-                  startId="Package\Carga hechos Entradas\Datos Entradas\Ord_Productos_Parques_Escuela.Outputs[Salida de ordenación]" />
+                  startId="Package\Carga hechos Entradas\Datos Entradas\Ord_Entradas_1.Outputs[Salida de ordenación]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación3]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\Mezclar P1 con P2.Inputs[Entrada de Mezclar 2]"
@@ -11018,14 +11018,14 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Entradas\Datos Entradas\Ord_Entradas_3.Outputs[Salida de ordenación]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación]"
-                  endId="Package\Carga hechos Entradas\Datos Entradas\Mezclar P1 con P2.Inputs[Entrada de Mezclar 1]"
-                  name="Salida de ordenación"
-                  startId="Package\Carga hechos Entradas\Datos Entradas\Ord_Entradas_1.Outputs[Salida de ordenación]" />
-                <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación4]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\Combinación Entrada Tiempo_DW.Inputs[Entrada derecha de combinación de mezcla]"
                   name="Salida de ordenación"
                   startId="Package\Carga hechos Entradas\Datos Entradas\Ord_Tiempo_DW.Outputs[Salida de ordenación]" />
+                <path
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación4]"
+                  endId="Package\Carga hechos Entradas\Datos Entradas\Combinación Entradas Empleado.Inputs[Entrada izquierda de combinación de mezcla]"
+                  name="Salida de ordenación"
+                  startId="Package\Carga hechos Entradas\Datos Entradas\Ord_Entradas_Parques_Empleado.Outputs[Salida de ordenación]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de origen de OLE DB3]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\Ord_Tiempo_DW.Inputs[Entrada de ordenación]"
@@ -11033,14 +11033,14 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Entradas\Datos Entradas\Tiempo_DW.Outputs[Salida de origen de OLE DB]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de origen de OLE DB2]"
+                  endId="Package\Carga hechos Entradas\Datos Entradas\Ord_Escuelas.Inputs[Entrada de ordenación]"
+                  name="Salida de origen de OLE DB"
+                  startId="Package\Carga hechos Entradas\Datos Entradas\Escuelas_Externo.Outputs[Salida de origen de OLE DB]" />
+                <path
+                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de origen de OLE DB4]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\Agregar rango horas.Inputs[Entrada de columna derivada]"
                   name="Salida de origen de OLE DB"
                   startId="Package\Carga hechos Entradas\Datos Entradas\Empleados RRHH.Outputs[Salida de origen de OLE DB]" />
-                <path
-                  refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de origen de OLE DB4]"
-                  endId="Package\Carga hechos Entradas\Datos Entradas\Agregar datos Parque 2.Inputs[Entrada de columna derivada]"
-                  name="Salida de origen de OLE DB"
-                  startId="Package\Carga hechos Entradas\Datos Entradas\Entradas Parque 2.Outputs[Salida de origen de OLE DB]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de origen de OLE DB]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\Agregar datos Parque 1.Inputs[Entrada de columna derivada]"
@@ -11048,9 +11048,9 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Entradas\Datos Entradas\Entradas Parque 1.Outputs[Salida de origen de OLE DB]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de origen de OLE DB1]"
-                  endId="Package\Carga hechos Entradas\Datos Entradas\Ord_Escuelas.Inputs[Entrada de ordenación]"
+                  endId="Package\Carga hechos Entradas\Datos Entradas\Agregar datos Parque 2.Inputs[Entrada de columna derivada]"
                   name="Salida de origen de OLE DB"
-                  startId="Package\Carga hechos Entradas\Datos Entradas\Escuelas_Externo.Outputs[Salida de origen de OLE DB]" />
+                  startId="Package\Carga hechos Entradas\Datos Entradas\Entradas Parque 2.Outputs[Salida de origen de OLE DB]" />
                 <path
                   refId="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de origen de OLE DB5]"
                   endId="Package\Carga hechos Entradas\Datos Entradas\Agregar datos Parque 3.Inputs[Entrada de columna derivada]"
@@ -24133,44 +24133,44 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Productos\Datos Productos\Agregado de Metricas.Outputs[Salida de agregado 1]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada20]"
-                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_TIME.Inputs[Entrada de destino de OLE DB]"
-                  name="Salida de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_TIME.Outputs[Salida de columna derivada]" />
-                <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada19]"
-                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_COL_EMP_HOUR.Inputs[Entrada de destino de OLE DB]"
-                  name="Salida de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_EMP_ADD_HOUR_RANGE.Outputs[Salida de columna derivada]" />
-                <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada18]"
-                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_COL_DEFAULT.Inputs[Entrada de destino de OLE DB]"
-                  name="Salida de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_DEFAULT.Outputs[Salida de columna derivada]" />
-                <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada17]"
-                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_CONVERT_SALE_AMOUNT.Inputs[Entrada de destino de OLE DB]"
-                  name="Salida de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_CONVERT_SALE_AMOUNT.Outputs[Salida de columna derivada]" />
-                <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada16]"
                   endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_COL_ESC.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_ESC.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada15]"
-                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_PROD_DW.Inputs[Entrada de destino de OLE DB]"
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada19]"
+                  endId="Package\Carga hechos Productos\Datos Productos\Combinación Producto Escuela.Inputs[Entrada derecha de combinación de mezcla]"
                   name="Salida de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_PROD_DW.Outputs[Salida de columna derivada]" />
+                  startId="Package\Carga hechos Productos\Datos Productos\Tipo Escuela.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada14]"
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada18]"
                   endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_COL_ESC_TYPE.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_ESC_ADD_TYPE.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada13]"
-                  endId="Package\Carga hechos Productos\Datos Productos\Combinación Producto Escuela.Inputs[Entrada derecha de combinación de mezcla]"
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada17]"
+                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_PROD_DW.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\Tipo Escuela.Outputs[Salida de columna derivada]" />
+                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_PROD_DW.Outputs[Salida de columna derivada]" />
+                <path
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada16]"
+                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_COL_EMP_HOUR.Inputs[Entrada de destino de OLE DB]"
+                  name="Salida de columna derivada"
+                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_EMP_ADD_HOUR_RANGE.Outputs[Salida de columna derivada]" />
+                <path
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada15]"
+                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_CONVERT_SALE_AMOUNT.Inputs[Entrada de destino de OLE DB]"
+                  name="Salida de columna derivada"
+                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_CONVERT_SALE_AMOUNT.Outputs[Salida de columna derivada]" />
+                <path
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada14]"
+                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_COL_DEFAULT.Inputs[Entrada de destino de OLE DB]"
+                  name="Salida de columna derivada"
+                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_DEFAULT.Outputs[Salida de columna derivada]" />
+                <path
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada13]"
+                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_P3.Inputs[Entrada de destino de OLE DB]"
+                  name="Salida de columna derivada"
+                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_P_P3.Outputs[Salida de columna derivada]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada11]"
                   endId="Package\Carga hechos Productos\Datos Productos\Ord_Empleados.Inputs[Entrada de ordenación]"
@@ -24178,14 +24178,14 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Productos\Datos Productos\Agregar rango horas.Outputs[Salida de columna derivada]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada10]"
-                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_P3.Inputs[Entrada de destino de OLE DB]"
+                  endId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_2.Inputs[Entrada de ordenación]"
                   name="Salida de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_P_P3.Outputs[Salida de columna derivada]" />
+                  startId="Package\Carga hechos Productos\Datos Productos\Agregar datos Parque 2.Outputs[Salida de columna derivada]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada12]"
-                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_SAVE.Inputs[Entrada de destino de OLE DB]"
+                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_TIME.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_SAVE.Outputs[Salida de columna derivada]" />
+                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_TIME.Outputs[Salida de columna derivada]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada8]"
                   endId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_1.Inputs[Entrada de ordenación]"
@@ -24193,49 +24193,49 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Productos\Datos Productos\Agregar datos Parque 1.Outputs[Salida de columna derivada]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada]"
-                  endId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_2.Inputs[Entrada de ordenación]"
+                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_P1.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\Agregar datos Parque 2.Outputs[Salida de columna derivada]" />
+                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_P_P1.Outputs[Salida de columna derivada]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada9]"
-                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_COL_EMP.Inputs[Entrada de destino de OLE DB]"
+                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_SAVE.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_EMP.Outputs[Salida de columna derivada]" />
+                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_SAVE.Outputs[Salida de columna derivada]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada2]"
-                  endId="Package\Carga hechos Productos\Datos Productos\Agregado Final.Inputs[Entrada de agregado 1]"
-                  name="Salida de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\Valor default para dimensiones y medidas de entradas.Outputs[Salida de columna derivada]" />
-                <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada3]"
-                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_COL_P3.Inputs[Entrada de destino de OLE DB]"
-                  name="Salida de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_ADD_P3.Outputs[Salida de columna derivada]" />
-                <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada1]"
-                  endId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_3.Inputs[Entrada de ordenación]"
-                  name="Salida de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\Agregar datos Parque 3.Outputs[Salida de columna derivada]" />
-                <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada5]"
-                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_COL_P2.Inputs[Entrada de destino de OLE DB]"
-                  name="Salida de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_ADD_P2.Outputs[Salida de columna derivada]" />
-                <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada6]"
                   endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_COL_P1.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_ADD_P1.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada7]"
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada3]"
+                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_COL_P2.Inputs[Entrada de destino de OLE DB]"
+                  name="Salida de columna derivada"
+                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_ADD_P2.Outputs[Salida de columna derivada]" />
+                <path
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada1]"
                   endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_P2.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
                   startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_P_P2.Outputs[Salida de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada4]"
-                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_P1.Inputs[Entrada de destino de OLE DB]"
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada5]"
+                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_COL_P3.Inputs[Entrada de destino de OLE DB]"
                   name="Salida de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_P_P1.Outputs[Salida de columna derivada]" />
+                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_ADD_P3.Outputs[Salida de columna derivada]" />
+                <path
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada6]"
+                  endId="Package\Carga hechos Productos\Datos Productos\Agregado Final.Inputs[Entrada de agregado 1]"
+                  name="Salida de columna derivada"
+                  startId="Package\Carga hechos Productos\Datos Productos\Valor default para dimensiones y medidas de entradas.Outputs[Salida de columna derivada]" />
+                <path
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada7]"
+                  endId="Package\Carga hechos Productos\Datos Productos\LOG_Productos_COL_EMP.Inputs[Entrada de destino de OLE DB]"
+                  name="Salida de columna derivada"
+                  startId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_EMP.Outputs[Salida de columna derivada]" />
+                <path
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada4]"
+                  endId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_3.Inputs[Entrada de ordenación]"
+                  name="Salida de columna derivada"
+                  startId="Package\Carga hechos Productos\Datos Productos\Agregar datos Parque 3.Outputs[Salida de columna derivada]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de combinación de mezcla]"
                   endId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_Parques_Escuelas.Inputs[Entrada de ordenación]"
@@ -24263,34 +24263,34 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Productos\Datos Productos\Conversión Dato cantidadVenta.Outputs[Salida de conversión de datos]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada5]"
-                  endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_ADD_P2.Inputs[Entrada de columna derivada]"
-                  name="Salida de error de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\Agregar datos Parque 2.Outputs[Salida de error de columna derivada]" />
-                <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada4]"
-                  endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_DEFAULT.Inputs[Entrada de columna derivada]"
-                  name="Salida de error de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\Valor default para dimensiones y medidas de entradas.Outputs[Salida de error de columna derivada]" />
-                <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada3]"
                   endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_ADD_P1.Inputs[Entrada de columna derivada]"
                   name="Salida de error de columna derivada"
                   startId="Package\Carga hechos Productos\Datos Productos\Agregar datos Parque 1.Outputs[Salida de error de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada1]"
-                  endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_EMP_ADD_HOUR_RANGE.Inputs[Entrada de columna derivada]"
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada4]"
+                  endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_ADD_P2.Inputs[Entrada de columna derivada]"
                   name="Salida de error de columna derivada"
-                  startId="Package\Carga hechos Productos\Datos Productos\Agregar rango horas.Outputs[Salida de error de columna derivada]" />
+                  startId="Package\Carga hechos Productos\Datos Productos\Agregar datos Parque 2.Outputs[Salida de error de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada]"
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada3]"
+                  endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_DEFAULT.Inputs[Entrada de columna derivada]"
+                  name="Salida de error de columna derivada"
+                  startId="Package\Carga hechos Productos\Datos Productos\Valor default para dimensiones y medidas de entradas.Outputs[Salida de error de columna derivada]" />
+                <path
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada1]"
                   endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_ADD_P3.Inputs[Entrada de columna derivada]"
                   name="Salida de error de columna derivada"
                   startId="Package\Carga hechos Productos\Datos Productos\Agregar datos Parque 3.Outputs[Salida de error de columna derivada]" />
                 <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada2]"
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada]"
                   endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_ESC_ADD_TYPE.Inputs[Entrada de columna derivada]"
                   name="Salida de error de columna derivada"
                   startId="Package\Carga hechos Productos\Datos Productos\Tipo Escuela.Outputs[Salida de error de columna derivada]" />
+                <path
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada2]"
+                  endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_EMP_ADD_HOUR_RANGE.Inputs[Entrada de columna derivada]"
+                  name="Salida de error de columna derivada"
+                  startId="Package\Carga hechos Productos\Datos Productos\Agregar rango horas.Outputs[Salida de error de columna derivada]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de conversión de datos]"
                   endId="Package\Carga hechos Productos\Datos Productos\PROCESS_CONVERT_SALE_AMOUNT.Inputs[Entrada de columna derivada]"
@@ -24303,29 +24303,29 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Productos\Datos Productos\Guardar en FT_VENTAS.Outputs[Salida de error de destino de OLE DB]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB4]"
-                  endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_TIME.Inputs[Entrada de columna derivada]"
-                  name="Salida de error de origen de OLE DB"
-                  startId="Package\Carga hechos Productos\Datos Productos\Tiempo_DW.Outputs[Salida de error de origen de OLE DB]" />
-                <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB]"
-                  endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_EMP.Inputs[Entrada de columna derivada]"
-                  name="Salida de error de origen de OLE DB"
-                  startId="Package\Carga hechos Productos\Datos Productos\Empleados RRHH.Outputs[Salida de error de origen de OLE DB]" />
-                <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB1]"
-                  endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_P_P2.Inputs[Entrada de columna derivada]"
-                  name="Salida de error de origen de OLE DB"
-                  startId="Package\Carga hechos Productos\Datos Productos\Productos Parque 2.Outputs[Salida de error de origen de OLE DB]" />
-                <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB2]"
                   endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_P_P3.Inputs[Entrada de columna derivada]"
                   name="Salida de error de origen de OLE DB"
                   startId="Package\Carga hechos Productos\Datos Productos\Productos Parque 3.Outputs[Salida de error de origen de OLE DB]" />
                 <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB3]"
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB]"
                   endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_P_P1.Inputs[Entrada de columna derivada]"
                   name="Salida de error de origen de OLE DB"
                   startId="Package\Carga hechos Productos\Datos Productos\Productos Parque 1.Outputs[Salida de error de origen de OLE DB]" />
+                <path
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB1]"
+                  endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_TIME.Inputs[Entrada de columna derivada]"
+                  name="Salida de error de origen de OLE DB"
+                  startId="Package\Carga hechos Productos\Datos Productos\Tiempo_DW.Outputs[Salida de error de origen de OLE DB]" />
+                <path
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB2]"
+                  endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_EMP.Inputs[Entrada de columna derivada]"
+                  name="Salida de error de origen de OLE DB"
+                  startId="Package\Carga hechos Productos\Datos Productos\Empleados RRHH.Outputs[Salida de error de origen de OLE DB]" />
+                <path
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB3]"
+                  endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_P_P2.Inputs[Entrada de columna derivada]"
+                  name="Salida de error de origen de OLE DB"
+                  startId="Package\Carga hechos Productos\Datos Productos\Productos Parque 2.Outputs[Salida de error de origen de OLE DB]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB5]"
                   endId="Package\Carga hechos Productos\Datos Productos\PROCESS_COL_PROD_DW.Inputs[Entrada de columna derivada]"
@@ -24348,24 +24348,24 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Productos\Datos Productos\Mezclar P1 con P2.Outputs[Salida de Mezclar 1]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación10]"
+                  endId="Package\Carga hechos Productos\Datos Productos\Mezclar P1yP2 con P3.Inputs[Entrada de Mezclar 2]"
+                  name="Salida de ordenación"
+                  startId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_3.Outputs[Salida de ordenación]" />
+                <path
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación9]"
                   endId="Package\Carga hechos Productos\Datos Productos\Combinación Producto Productos_DW.Inputs[Entrada derecha de combinación de mezcla]"
                   name="Salida de ordenación"
                   startId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_DW.Outputs[Salida de ordenación]" />
                 <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación9]"
-                  endId="Package\Carga hechos Productos\Datos Productos\Mezclar P1 con P2.Inputs[Entrada de Mezclar 1]"
-                  name="Salida de ordenación"
-                  startId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_1.Outputs[Salida de ordenación]" />
-                <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación7]"
-                  endId="Package\Carga hechos Productos\Datos Productos\Combinación Producto Tiempo_DW.Inputs[Entrada derecha de combinación de mezcla]"
-                  name="Salida de ordenación"
-                  startId="Package\Carga hechos Productos\Datos Productos\Ord_Tiempo_DW.Outputs[Salida de ordenación]" />
-                <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación8]"
                   endId="Package\Carga hechos Productos\Datos Productos\Combinación Producto Productos_DW.Inputs[Entrada izquierda de combinación de mezcla]"
                   name="Salida de ordenación"
                   startId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_Parques_Productos.Outputs[Salida de ordenación]" />
+                <path
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación8]"
+                  endId="Package\Carga hechos Productos\Datos Productos\Combinación Producto Tiempo_DW.Inputs[Entrada derecha de combinación de mezcla]"
+                  name="Salida de ordenación"
+                  startId="Package\Carga hechos Productos\Datos Productos\Ord_Tiempo_DW.Outputs[Salida de ordenación]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación6]"
                   endId="Package\Carga hechos Productos\Datos Productos\Mezclar P1 con P2.Inputs[Entrada de Mezclar 2]"
@@ -24373,9 +24373,9 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_2.Outputs[Salida de ordenación]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación1]"
-                  endId="Package\Carga hechos Productos\Datos Productos\Mezclar P1yP2 con P3.Inputs[Entrada de Mezclar 2]"
+                  endId="Package\Carga hechos Productos\Datos Productos\Tipo Escuela.Inputs[Entrada de columna derivada]"
                   name="Salida de ordenación"
-                  startId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_3.Outputs[Salida de ordenación]" />
+                  startId="Package\Carga hechos Productos\Datos Productos\Ord_Escuelas.Outputs[Salida de ordenación]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación4]"
                   endId="Package\Carga hechos Productos\Datos Productos\Combinación Productos Empleado.Inputs[Entrada izquierda de combinación de mezcla]"
@@ -24383,24 +24383,24 @@ OPTION (MAXRECURSION 0);</property>
                   startId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_Parques_Empleado.Outputs[Salida de ordenación]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación3]"
-                  endId="Package\Carga hechos Productos\Datos Productos\Combinación Producto Escuela.Inputs[Entrada izquierda de combinación de mezcla]"
-                  name="Salida de ordenación"
-                  startId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_Parques_Escuelas.Outputs[Salida de ordenación]" />
-                <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación2]"
                   endId="Package\Carga hechos Productos\Datos Productos\Combinación Productos Empleado.Inputs[Entrada derecha de combinación de mezcla]"
                   name="Salida de ordenación"
                   startId="Package\Carga hechos Productos\Datos Productos\Ord_Empleados.Outputs[Salida de ordenación]" />
                 <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación]"
-                  endId="Package\Carga hechos Productos\Datos Productos\Tipo Escuela.Inputs[Entrada de columna derivada]"
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación2]"
+                  endId="Package\Carga hechos Productos\Datos Productos\Combinación Producto Escuela.Inputs[Entrada izquierda de combinación de mezcla]"
                   name="Salida de ordenación"
-                  startId="Package\Carga hechos Productos\Datos Productos\Ord_Escuelas.Outputs[Salida de ordenación]" />
+                  startId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_Parques_Escuelas.Outputs[Salida de ordenación]" />
                 <path
-                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación5]"
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación]"
                   endId="Package\Carga hechos Productos\Datos Productos\Combinación Producto Tiempo_DW.Inputs[Entrada izquierda de combinación de mezcla]"
                   name="Salida de ordenación"
                   startId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_Parques_Tiempo.Outputs[Salida de ordenación]" />
+                <path
+                  refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación5]"
+                  endId="Package\Carga hechos Productos\Datos Productos\Mezclar P1 con P2.Inputs[Entrada de Mezclar 1]"
+                  name="Salida de ordenación"
+                  startId="Package\Carga hechos Productos\Datos Productos\Ord_Productos_1.Outputs[Salida de ordenación]" />
                 <path
                   refId="Package\Carga hechos Productos\Datos Productos.Paths[Salida de origen de OLE DB4]"
                   endId="Package\Carga hechos Productos\Datos Productos\Ord_Escuelas.Inputs[Entrada de ordenación]"
@@ -24640,8 +24640,8 @@ OPTION (MAXRECURSION 0);</property>
         <ContainerLayout
           HeaderHeight="43"
           IsExpanded="True"
-          PanelSize="331,117"
-          Size="331,160"
+          PanelSize="331,131"
+          Size="331,174"
           Id="Package\Carga hechos Productos"
           TopLeft="659,489" />
         <NodeLayout
@@ -25032,91 +25032,7 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de origen de OLE DB4]"
-          TopLeft="823.5,45">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="10.5,69"
-              Start="0,0"
-              End="10.5,61.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,30.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,30.5"
-                    Point2="0,34.5"
-                    Point3="4,34.5" />
-                  <mssgle:LineSegment
-                    End="6.5,34.5" />
-                  <mssgle:CubicBezierSegment
-                    Point1="6.5,34.5"
-                    Point2="10.5,34.5"
-                    Point3="10.5,38.5" />
-                  <mssgle:LineSegment
-                    End="10.5,61.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de origen de OLE DB3]"
-          TopLeft="1187.25,1248">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,32"
-              Start="0,0"
-              End="0,24.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
           Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de origen de OLE DB2]"
-          TopLeft="1200,743.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,46.5"
-              Start="0,0"
-              End="0,39">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,39" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de origen de OLE DB1]"
           TopLeft="1186.75,1016">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -25164,31 +25080,31 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación8]"
-          TopLeft="914.5,1315">
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de origen de OLE DB1]"
+          TopLeft="823.5,45">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-33.1666666666666,60"
+              EndConnector="10.5,69"
               Start="0,0"
-              End="-33.1666666666666,52.5">
+              End="10.5,61.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,31.7615894039735" />
+                    End="0,30.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,31.7615894039735"
-                    Point2="0,35.7615894039735"
-                    Point3="-4,35.7615894039735" />
+                    Point1="0,30.5"
+                    Point2="0,34.5"
+                    Point3="4,34.5" />
                   <mssgle:LineSegment
-                    End="-29.1666666666666,35.7615894039735" />
+                    End="6.5,34.5" />
                   <mssgle:CubicBezierSegment
-                    Point1="-29.1666666666666,35.7615894039735"
-                    Point2="-33.1666666666666,35.7615894039735"
-                    Point3="-33.1666666666666,39.7615894039735" />
+                    Point1="6.5,34.5"
+                    Point2="10.5,34.5"
+                    Point3="10.5,38.5" />
                   <mssgle:LineSegment
-                    End="-33.1666666666666,52.5" />
+                    End="10.5,61.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -25200,19 +25116,19 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación7]"
-          TopLeft="908,948">
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de origen de OLE DB4]"
+          TopLeft="1200,743.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,36"
+              EndConnector="0,46.5"
               Start="0,0"
-              End="0,28.5">
+              End="0,39">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,28.5" />
+                    End="0,39" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -25224,19 +25140,19 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación6]"
-          TopLeft="1188.5,1092">
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de origen de OLE DB3]"
+          TopLeft="1187.25,1248">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,30"
+              EndConnector="0,32"
               Start="0,0"
-              End="0,22.5">
+              End="0,24.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,22.5" />
+                    End="0,24.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -25248,43 +25164,7 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación5]"
-          TopLeft="1194.5,906">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-247.5,78"
-              Start="0,0"
-              End="-247.5,70.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,42.4808184143223" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,42.4808184143223"
-                    Point2="0,46.4808184143223"
-                    Point3="-4,46.4808184143223" />
-                  <mssgle:LineSegment
-                    End="-243.5,46.4808184143223" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-243.5,46.4808184143223"
-                    Point2="-247.5,46.4808184143223"
-                    Point3="-247.5,50.4808184143223" />
-                  <mssgle:LineSegment
-                    End="-247.5,70.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación4]"
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación]"
           TopLeft="1188,1322">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -25320,31 +25200,31 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación3]"
-          TopLeft="829.5,258">
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación1]"
+          TopLeft="584.5,251">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-76.5,328"
+              EndConnector="116.5,335"
               Start="0,0"
-              End="-76.5,320.5">
+              End="116.5,327.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,190.898550724638" />
+                    End="0,195.057971014493" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,190.898550724638"
-                    Point2="0,194.898550724638"
-                    Point3="-4,194.898550724638" />
+                    Point1="0,195.057971014493"
+                    Point2="0,199.057971014493"
+                    Point3="4,199.057971014493" />
                   <mssgle:LineSegment
-                    End="-72.5,194.898550724638" />
+                    End="112.5,199.057971014493" />
                   <mssgle:CubicBezierSegment
-                    Point1="-72.5,194.898550724638"
-                    Point2="-76.5,194.898550724638"
-                    Point3="-76.5,198.898550724638" />
+                    Point1="112.5,199.057971014493"
+                    Point2="116.5,199.057971014493"
+                    Point3="116.5,203.057971014493" />
                   <mssgle:LineSegment
-                    End="-76.5,320.5" />
+                    End="116.5,327.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -25392,7 +25272,43 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación1]"
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación3]"
+          TopLeft="829.5,258">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-76.5,328"
+              Start="0,0"
+              End="-76.5,320.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,190.898550724638" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,190.898550724638"
+                    Point2="0,194.898550724638"
+                    Point3="-4,194.898550724638" />
+                  <mssgle:LineSegment
+                    End="-72.5,194.898550724638" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-72.5,194.898550724638"
+                    Point2="-76.5,194.898550724638"
+                    Point3="-76.5,198.898550724638" />
+                  <mssgle:LineSegment
+                    End="-76.5,320.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación8]"
           TopLeft="914.5,1114">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -25428,31 +25344,139 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación]"
-          TopLeft="584.5,251">
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación5]"
+          TopLeft="1194.5,906">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="116.5,335"
+              EndConnector="-247.5,78"
               Start="0,0"
-              End="116.5,327.5">
+              End="-247.5,70.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,195.057971014493" />
+                    End="0,42.4808184143223" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,195.057971014493"
-                    Point2="0,199.057971014493"
-                    Point3="4,199.057971014493" />
+                    Point1="0,42.4808184143223"
+                    Point2="0,46.4808184143223"
+                    Point3="-4,46.4808184143223" />
                   <mssgle:LineSegment
-                    End="112.5,199.057971014493" />
+                    End="-243.5,46.4808184143223" />
                   <mssgle:CubicBezierSegment
-                    Point1="112.5,199.057971014493"
-                    Point2="116.5,199.057971014493"
-                    Point3="116.5,203.057971014493" />
+                    Point1="-243.5,46.4808184143223"
+                    Point2="-247.5,46.4808184143223"
+                    Point3="-247.5,50.4808184143223" />
                   <mssgle:LineSegment
-                    End="116.5,327.5" />
+                    End="-247.5,70.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación6]"
+          TopLeft="1188.5,1092">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,30"
+              Start="0,0"
+              End="0,22.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,22.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación4]"
+          TopLeft="908,948">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,36"
+              Start="0,0"
+              End="0,28.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de ordenación7]"
+          TopLeft="914.5,1315">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-33.1666666666666,60"
+              Start="0,0"
+              End="-33.1666666666666,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,31.7615894039735" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,31.7615894039735"
+                    Point2="0,35.7615894039735"
+                    Point3="-4,35.7615894039735" />
+                  <mssgle:LineSegment
+                    End="-29.1666666666666,35.7615894039735" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-29.1666666666666,35.7615894039735"
+                    Point2="-33.1666666666666,35.7615894039735"
+                    Point3="-33.1666666666666,39.7615894039735" />
+                  <mssgle:LineSegment
+                    End="-33.1666666666666,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de Mezclar 1]"
+          TopLeft="907,707">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,34"
+              Start="0,0"
+              End="0,26.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,26.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -25489,30 +25513,6 @@ OPTION (MAXRECURSION 0);</property>
                     Point3="151.666666666667,26.0054764512596" />
                   <mssgle:LineSegment
                     End="151.666666666667,29.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de Mezclar 1]"
-          TopLeft="907,707">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,34"
-              Start="0,0"
-              End="0,26.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,26.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -25812,79 +25812,7 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de error de columna derivada3]"
-          TopLeft="1229,832">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="306.333333333333,59.444444444445"
-              Start="0,0"
-              End="306.333333333333,51.944444444445">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.0990990990993" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.0990990990993"
-                    Point2="0,24.0990990990993"
-                    Point3="4,24.0990990990993" />
-                  <mssgle:LineSegment
-                    End="302.333333333333,24.0990990990993" />
-                  <mssgle:CubicBezierSegment
-                    Point1="302.333333333333,24.0990990990993"
-                    Point2="306.333333333333,24.0990990990993"
-                    Point3="306.333333333333,28.0990990990993" />
-                  <mssgle:LineSegment
-                    End="306.333333333333,51.944444444445" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="72.8026432291666,29.0990990990993,160.728046875,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de error de columna derivada2]"
-          TopLeft="553.666666666667,152">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-201.166666666667,54"
-              Start="0,0"
-              End="-201.166666666667,46.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.8705636743215" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,17.8705636743215"
-                    Point2="0,21.8705636743215"
-                    Point3="-4,21.8705636743215" />
-                  <mssgle:LineSegment
-                    End="-197.166666666667,21.8705636743215" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-197.166666666667,21.8705636743215"
-                    Point2="-201.166666666667,21.8705636743215"
-                    Point3="-201.166666666667,25.8705636743215" />
-                  <mssgle:LineSegment
-                    End="-201.166666666667,46.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-180.947356770833,26.8705636743215,160.728046875,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de error de columna derivada1]"
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de error de columna derivada]"
           TopLeft="1211.66666666667,1164">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -25920,7 +25848,7 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de error de columna derivada]"
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de error de columna derivada1]"
           TopLeft="888.333333333333,1503">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -25952,6 +25880,78 @@ OPTION (MAXRECURSION 0);</property>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="-240.308467881944,27.8169069334116,160.728046875,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de error de columna derivada3]"
+          TopLeft="553.666666666667,152">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-201.166666666667,54"
+              Start="0,0"
+              End="-201.166666666667,46.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.8705636743215" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17.8705636743215"
+                    Point2="0,21.8705636743215"
+                    Point3="-4,21.8705636743215" />
+                  <mssgle:LineSegment
+                    End="-197.166666666667,21.8705636743215" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-197.166666666667,21.8705636743215"
+                    Point2="-201.166666666667,21.8705636743215"
+                    Point3="-201.166666666667,25.8705636743215" />
+                  <mssgle:LineSegment
+                    End="-201.166666666667,46.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-180.947356770833,26.8705636743215,160.728046875,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de error de columna derivada2]"
+          TopLeft="1229,832">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="306.333333333333,59.444444444445"
+              Start="0,0"
+              End="306.333333333333,51.944444444445">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.0990990990993" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.0990990990993"
+                    Point2="0,24.0990990990993"
+                    Point3="4,24.0990990990993" />
+                  <mssgle:LineSegment
+                    End="302.333333333333,24.0990990990993" />
+                  <mssgle:CubicBezierSegment
+                    Point1="302.333333333333,24.0990990990993"
+                    Point2="306.333333333333,24.0990990990993"
+                    Point3="306.333333333333,28.0990990990993" />
+                  <mssgle:LineSegment
+                    End="306.333333333333,51.944444444445" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="72.8026432291666,29.0990990990993,160.728046875,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -26052,175 +26052,235 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada]"
+          TopLeft="923.5,1503">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,49"
+              Start="0,0"
+              End="0,41.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,41.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada1]"
+          TopLeft="1393,376">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="68,0"
+              Start="0,0"
+              End="60.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="60.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada2]"
+          TopLeft="1197.75,832">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,32"
+              Start="0,0"
+              End="0,24.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada3]"
+          TopLeft="1190,1164">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-242,31"
+              Start="0,0"
+              End="-242,23.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,14.4644808743169" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,14.4644808743169"
+                    Point2="0,18.4644808743169"
+                    Point3="-4,18.4644808743169" />
+                  <mssgle:LineSegment
+                    End="-238,18.4644808743169" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-238,18.4644808743169"
+                    Point2="-242,18.4644808743169"
+                    Point3="-242,22.4644808743169" />
+                  <mssgle:LineSegment
+                    End="-242,23.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada4]"
+          TopLeft="253,98">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-66,0"
+              Start="0,0"
+              End="-58.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-58.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada5]"
+          TopLeft="584.25,152">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,57"
+              Start="0,0"
+              End="0,49.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,49.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada6]"
+          TopLeft="1070.75,433">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada8]"
+          TopLeft="831.75,156">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,60"
+              Start="0,0"
+              End="0,52.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,52.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada7]"
+          TopLeft="1199,92">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="68,0"
+              Start="0,0"
+              End="60.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="60.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada17]"
-          TopLeft="1569,808">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="163.888888888889,0"
-              Start="0,0"
-              End="156.388888888889,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="156.388888888889,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada16]"
-          TopLeft="1575.88888888889,1074">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="156,0"
-              Start="0,0"
-              End="148.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="148.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada15]"
-          TopLeft="1633,1209.44444444445">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="98.8888888888901,0"
-              Start="0,0"
-              End="91.3888888888901,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="91.3888888888901,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada14]"
-          TopLeft="1582.44444444444,1321.44444444444">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="150,0"
-              Start="0,0"
-              End="142.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="142.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada13]"
-          TopLeft="408.111111111111,925.055555555556">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-90.4444444444443,0"
-              Start="0,0"
-              End="-82.9444444444443,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-82.9444444444443,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada12]"
-          TopLeft="469.444444444446,1580.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-130.444444444446,0"
-              Start="0,0"
-              End="-122.944444444446,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-122.944444444446,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada11]"
-          TopLeft="510.444444444446,1743.05555555555">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-177.444444444446,0"
-              Start="0,0"
-              End="-169.944444444446,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-169.944444444446,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada10]"
           TopLeft="1672.33333333333,911.888888888889">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -26268,19 +26328,19 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada8]"
-          TopLeft="923.5,1503">
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada10]"
+          TopLeft="510.444444444446,1743.05555555555">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,49"
+              EndConnector="-177.444444444446,0"
               Start="0,0"
-              End="0,41.5">
+              End="-169.944444444446,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,41.5" />
+                    End="-169.944444444446,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -26292,19 +26352,19 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada7]"
-          TopLeft="1199,92">
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada11]"
+          TopLeft="469.444444444446,1580.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="68,0"
+              EndConnector="-130.444444444446,0"
               Start="0,0"
-              End="60.5,0">
+              End="-122.944444444446,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="60.5,0" />
+                    End="-122.944444444446,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -26316,19 +26376,19 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada6]"
-          TopLeft="831.75,156">
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada12]"
+          TopLeft="408.111111111111,925.055555555556">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="-90.4444444444443,0"
               Start="0,0"
-              End="0,52.5">
+              End="-82.9444444444443,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="-82.9444444444443,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -26340,19 +26400,19 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada5]"
-          TopLeft="1070.75,433">
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada13]"
+          TopLeft="1582.44444444444,1321.44444444444">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,60"
+              EndConnector="150,0"
               Start="0,0"
-              End="0,52.5">
+              End="142.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,52.5" />
+                    End="142.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -26364,19 +26424,19 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada4]"
-          TopLeft="584.25,152">
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada14]"
+          TopLeft="1633,1209.44444444445">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,57"
+              EndConnector="98.8888888888901,0"
               Start="0,0"
-              End="0,49.5">
+              End="91.3888888888901,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,49.5" />
+                    End="91.3888888888901,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -26388,19 +26448,19 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada3]"
-          TopLeft="253,98">
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada15]"
+          TopLeft="1575.88888888889,1074">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-66,0"
+              EndConnector="156,0"
               Start="0,0"
-              End="-58.5,0">
+              End="148.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-58.5,0" />
+                    End="148.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -26412,79 +26472,19 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada2]"
-          TopLeft="1190,1164">
+          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada16]"
+          TopLeft="1569,808">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-242,31"
+              EndConnector="163.888888888889,0"
               Start="0,0"
-              End="-242,23.5">
+              End="156.388888888889,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,14.4644808743169" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,14.4644808743169"
-                    Point2="0,18.4644808743169"
-                    Point3="-4,18.4644808743169" />
-                  <mssgle:LineSegment
-                    End="-238,18.4644808743169" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-238,18.4644808743169"
-                    Point2="-242,18.4644808743169"
-                    Point3="-242,22.4644808743169" />
-                  <mssgle:LineSegment
-                    End="-242,23.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada1]"
-          TopLeft="1197.75,832">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,32"
-              Start="0,0"
-              End="0,24.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Entradas\Datos Entradas.Paths[Salida de columna derivada]"
-          TopLeft="1393,376">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="68,0"
-              Start="0,0"
-              End="60.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="60.5,0" />
+                    End="156.388888888889,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -27002,78 +27002,40 @@ OPTION (MAXRECURSION 0);</property>
           TopLeft="766,782" />
         <EdgeLayout
           Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación2]"
-          TopLeft="1371.5,864.222222222222">
+          TopLeft="874,1081">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-454.166666666667,87.7777777777778"
+              EndConnector="-31.5555555555557,69.2222222222222"
               Start="0,0"
-              End="-454.166666666667,80.2777777777778">
+              End="-31.5555555555557,61.7222222222222">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,48.3149693934335" />
+                    End="0,37.2374591867023" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,48.3149693934335"
-                    Point2="0,52.3149693934335"
-                    Point3="-4,52.3149693934335" />
+                    Point1="0,37.2374591867023"
+                    Point2="0,41.2374591867023"
+                    Point3="-4,41.2374591867023" />
                   <mssgle:LineSegment
-                    End="-450.166666666667,52.3149693934335" />
+                    End="-27.5555555555557,41.2374591867023" />
                   <mssgle:CubicBezierSegment
-                    Point1="-450.166666666667,52.3149693934335"
-                    Point2="-454.166666666667,52.3149693934335"
-                    Point3="-454.166666666667,56.3149693934335" />
+                    Point1="-27.5555555555557,41.2374591867023"
+                    Point2="-31.5555555555557,41.2374591867023"
+                    Point3="-31.5555555555557,45.2374591867023" />
                   <mssgle:LineSegment
-                    End="-454.166666666667,80.2777777777778" />
+                    End="-31.5555555555557,61.7222222222222" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación1]"
-          TopLeft="1194,533">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-291.666666666667,110"
-              Start="0,0"
-              End="-291.666666666667,102.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,61.421686746988" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,61.421686746988"
-                    Point2="0,65.421686746988"
-                    Point3="-4,65.421686746988" />
-                  <mssgle:LineSegment
-                    End="-287.666666666667,65.421686746988" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-287.666666666667,65.421686746988"
-                    Point2="-291.666666666667,65.421686746988"
-                    Point3="-291.666666666667,69.421686746988" />
-                  <mssgle:LineSegment
-                    End="-291.666666666667,102.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación]"
           TopLeft="1365.5,1050.22222222222">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27091,9 +27053,41 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación]"
+          TopLeft="899.166666666667,1443.44444444444">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-43.6111111111107,77.7777777777781"
+              Start="0,0"
+              End="-43.6111111111107,70.2777777777781">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,42.3638821303056" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,42.3638821303056"
+                    Point2="0,46.3638821303056"
+                    Point3="-4,46.3638821303056" />
+                  <mssgle:LineSegment
+                    End="-39.6111111111107,46.3638821303056" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-39.6111111111107,46.3638821303056"
+                    Point2="-43.6111111111107,46.3638821303056"
+                    Point3="-43.6111111111107,50.3638821303056" />
+                  <mssgle:LineSegment
+                    End="-43.6111111111107,70.2777777777781" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -27115,9 +27109,7 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -27151,9 +27143,7 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -27230,78 +27220,6 @@ OPTION (MAXRECURSION 0);</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB4]"
-          TopLeft="1389,1369.22222222222">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="283.833333333333,59.6666666666667"
-              Start="0,0"
-              End="283.833333333333,52.1666666666667">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.2799422799424" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.2799422799424"
-                    Point2="0,24.2799422799424"
-                    Point3="4,24.2799422799424" />
-                  <mssgle:LineSegment
-                    End="279.833333333333,24.2799422799424" />
-                  <mssgle:CubicBezierSegment
-                    Point1="279.833333333333,24.2799422799424"
-                    Point2="283.833333333333,24.2799422799424"
-                    Point3="283.833333333333,28.2799422799424" />
-                  <mssgle:LineSegment
-                    End="283.833333333333,52.1666666666667" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="61.2251822916666,29.2799422799424,161.38296875,11.6630859375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB3]"
-          TopLeft="521.333333333333,45">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-194.333333333333,26"
-              Start="0,0"
-              End="-194.333333333333,18.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,6.54461181923523" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,6.54461181923523"
-                    Point2="0,10.5446118192352"
-                    Point3="-4,10.5446118192352" />
-                  <mssgle:LineSegment
-                    End="-190.333333333333,10.5446118192352" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-190.333333333333,10.5446118192352"
-                    Point2="-194.333333333333,10.5446118192352"
-                    Point3="-194.333333333333,14.5446118192352" />
-                  <mssgle:LineSegment
-                    End="-194.333333333333,18.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-177.858151041667,15.5446118192352,161.38296875,11.6630859375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB2]"
           TopLeft="1215.66666666667,326">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27337,7 +27255,7 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB1]"
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB3]"
           TopLeft="815.666666666667,46">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27373,7 +27291,7 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB]"
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB2]"
           TopLeft="1408.5,702.722222222222">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27405,6 +27323,78 @@ OPTION (MAXRECURSION 0);</property>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
               BoundingBox="43.0029600694446,16.5231652316522,161.38296875,11.6630859375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB1]"
+          TopLeft="1389,1369.22222222222">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="283.833333333333,59.6666666666667"
+              Start="0,0"
+              End="283.833333333333,52.1666666666667">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.2799422799424" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.2799422799424"
+                    Point2="0,24.2799422799424"
+                    Point3="4,24.2799422799424" />
+                  <mssgle:LineSegment
+                    End="279.833333333333,24.2799422799424" />
+                  <mssgle:CubicBezierSegment
+                    Point1="279.833333333333,24.2799422799424"
+                    Point2="283.833333333333,24.2799422799424"
+                    Point3="283.833333333333,28.2799422799424" />
+                  <mssgle:LineSegment
+                    End="283.833333333333,52.1666666666667" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="61.2251822916666,29.2799422799424,161.38296875,11.6630859375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de origen de OLE DB]"
+          TopLeft="521.333333333333,45">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-194.333333333333,26"
+              Start="0,0"
+              End="-194.333333333333,18.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,6.54461181923523" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,6.54461181923523"
+                    Point2="0,10.5446118192352"
+                    Point3="-4,10.5446118192352" />
+                  <mssgle:LineSegment
+                    End="-190.333333333333,10.5446118192352" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-190.333333333333,10.5446118192352"
+                    Point2="-194.333333333333,10.5446118192352"
+                    Point3="-194.333333333333,14.5446118192352" />
+                  <mssgle:LineSegment
+                    End="-194.333333333333,18.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-177.858151041667,15.5446118192352,161.38296875,11.6630859375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
@@ -27482,78 +27472,6 @@ OPTION (MAXRECURSION 0);</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada5]"
-          TopLeft="826.333333333333,157">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="184.166666666667,41"
-              Start="0,0"
-              End="184.166666666667,33.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,12.6054279749478" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,12.6054279749478"
-                    Point2="0,16.6054279749478"
-                    Point3="4,16.6054279749478" />
-                  <mssgle:LineSegment
-                    End="180.166666666667,16.6054279749478" />
-                  <mssgle:CubicBezierSegment
-                    Point1="180.166666666667,16.6054279749478"
-                    Point2="184.166666666667,16.6054279749478"
-                    Point3="184.166666666667,20.6054279749478" />
-                  <mssgle:LineSegment
-                    End="184.166666666667,33.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="11.7193098958333,21.6054279749478,160.728046875,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada4]"
-          TopLeft="834.777777777778,1657.22222222222">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-343.777777777777,61.6666666666667"
-              Start="0,0"
-              End="-343.777777777777,54.1666666666667">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,20.8425430778372" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,20.8425430778372"
-                    Point2="0,24.8425430778372"
-                    Point3="-4,24.8425430778372" />
-                  <mssgle:LineSegment
-                    End="-339.777777777777,24.8425430778372" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-339.777777777777,24.8425430778372"
-                    Point2="-343.777777777777,24.8425430778372"
-                    Point3="-343.777777777777,28.8425430778372" />
-                  <mssgle:LineSegment
-                    End="-343.777777777777,54.1666666666667" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="-252.252912326388,29.8425430778372,160.728046875,9.7490234375"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada3]"
           TopLeft="515.666666666667,153">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27589,43 +27507,79 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada2]"
-          TopLeft="1388.66666666667,1124.22222222222">
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada4]"
+          TopLeft="826.333333333333,157">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="304.722222222222,26.8888888888898"
+              EndConnector="184.166666666667,41"
               Start="0,0"
-              End="304.722222222222,19.3888888888898">
+              End="184.166666666667,33.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,6.94046482012141" />
+                    End="0,12.6054279749478" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,6.94046482012141"
-                    Point2="0,10.9404648201214"
-                    Point3="4,10.9404648201214" />
+                    Point1="0,12.6054279749478"
+                    Point2="0,16.6054279749478"
+                    Point3="4,16.6054279749478" />
                   <mssgle:LineSegment
-                    End="300.722222222222,10.9404648201214" />
+                    End="180.166666666667,16.6054279749478" />
                   <mssgle:CubicBezierSegment
-                    Point1="300.722222222222,10.9404648201214"
-                    Point2="304.722222222222,10.9404648201214"
-                    Point3="304.722222222222,14.9404648201214" />
+                    Point1="180.166666666667,16.6054279749478"
+                    Point2="184.166666666667,16.6054279749478"
+                    Point3="184.166666666667,20.6054279749478" />
                   <mssgle:LineSegment
-                    End="304.722222222222,19.3888888888898" />
+                    End="184.166666666667,33.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
             <mssgm:EdgeLabel
-              BoundingBox="71.9970876736112,15.9404648201214,160.728046875,9.7490234375"
+              BoundingBox="11.7193098958333,21.6054279749478,160.728046875,9.7490234375"
               RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada1]"
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada3]"
+          TopLeft="834.777777777778,1657.22222222222">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-343.777777777777,61.6666666666667"
+              Start="0,0"
+              End="-343.777777777777,54.1666666666667">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,20.8425430778372" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,20.8425430778372"
+                    Point2="0,24.8425430778372"
+                    Point3="-4,24.8425430778372" />
+                  <mssgle:LineSegment
+                    End="-339.777777777777,24.8425430778372" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-339.777777777777,24.8425430778372"
+                    Point2="-343.777777777777,24.8425430778372"
+                    Point3="-343.777777777777,28.8425430778372" />
+                  <mssgle:LineSegment
+                    End="-343.777777777777,54.1666666666667" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="-252.252912326388,29.8425430778372,160.728046875,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada2]"
           TopLeft="1405,792.222222222222">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27661,7 +27615,7 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada]"
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada1]"
           TopLeft="1222.33333333333,438">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27697,6 +27651,42 @@ OPTION (MAXRECURSION 0);</property>
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de error de columna derivada]"
+          TopLeft="1388.66666666667,1124.22222222222">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="304.722222222222,26.8888888888898"
+              Start="0,0"
+              End="304.722222222222,19.3888888888898">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,6.94046482012141" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,6.94046482012141"
+                    Point2="0,10.9404648201214"
+                    Point3="4,10.9404648201214" />
+                  <mssgle:LineSegment
+                    End="300.722222222222,10.9404648201214" />
+                  <mssgle:CubicBezierSegment
+                    Point1="300.722222222222,10.9404648201214"
+                    Point2="304.722222222222,10.9404648201214"
+                    Point3="304.722222222222,14.9404648201214" />
+                  <mssgle:LineSegment
+                    End="304.722222222222,19.3888888888898" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <mssgm:EdgeLabel
+              BoundingBox="71.9970876736112,15.9404648201214,160.728046875,9.7490234375"
+              RelativePosition="Any" />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
           Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de conversión de datos]"
           TopLeft="879.75,824">
           <EdgeLayout.Curve>
@@ -27715,9 +27705,7 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -27739,9 +27727,7 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -27763,9 +27749,7 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -27787,9 +27771,7 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -27811,109 +27793,11 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada20]"
-          TopLeft="1762.33333333333,1451.55555555556">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="150,0"
-              Start="0,0"
-              End="142.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="142.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada19]"
-          TopLeft="1846.22222222222,856">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="65.0000000000002,0"
-              Start="0,0"
-              End="57.5000000000002,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="57.5000000000002,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada18]"
-          TopLeft="392.000000000001,1739.94444444444">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-140.444444444446,0"
-              Start="0,0"
-              End="-132.944444444446,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-132.944444444446,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada17]"
-          TopLeft="438.666666666667,886.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-85.4444444444447,0"
-              Start="0,0"
-              End="-77.9444444444447,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-77.9444444444447,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada16]"
           TopLeft="1750.77777777778,1037.11111111111">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -27931,61 +27815,11 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada15]"
-          TopLeft="1785.44444444444,1257.66666666667">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="125,0"
-              Start="0,0"
-              End="117.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="117.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada14]"
-          TopLeft="1807.88888888889,1171.55555555556">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="98.8888888888896,0"
-              Start="0,0"
-              End="91.3888888888896,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="91.3888888888896,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada13]"
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada19]"
           TopLeft="1345.33333333333,1124.22222222222">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28015,33 +27849,161 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada12]"
-          TopLeft="389.000000000001,1910.5">
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada18]"
+          TopLeft="1807.88888888889,1171.55555555556">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-184.444444444446,0"
+              EndConnector="98.8888888888896,0"
               Start="0,0"
-              End="-176.944444444446,0">
+              End="91.3888888888896,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-176.944444444446,0" />
+                    End="91.3888888888896,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada17]"
+          TopLeft="1785.44444444444,1257.66666666667">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="125,0"
+              Start="0,0"
+              End="117.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="117.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada16]"
+          TopLeft="1846.22222222222,856">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="65.0000000000002,0"
+              Start="0,0"
+              End="57.5000000000002,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="57.5000000000002,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada15]"
+          TopLeft="438.666666666667,886.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-85.4444444444447,0"
+              Start="0,0"
+              End="-77.9444444444447,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-77.9444444444447,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada14]"
+          TopLeft="392.000000000001,1739.94444444444">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-140.444444444446,0"
+              Start="0,0"
+              End="-132.944444444446,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-132.944444444446,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada13]"
+          TopLeft="1535,382">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="77,0"
+              Start="0,0"
+              End="69.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="69.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada12]"
+          TopLeft="1762.33333333333,1451.55555555556">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="150,0"
+              Start="0,0"
+              End="142.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="142.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28063,57 +28025,51 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada10]"
-          TopLeft="1535,382">
+          TopLeft="795,157">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="77,0"
+              EndConnector="0,51"
               Start="0,0"
-              End="69.5,0">
+              End="0,43.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="69.5,0" />
+                    End="0,43.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada9]"
-          TopLeft="1742.88888888889,752.111111111111">
+          TopLeft="389.000000000001,1910.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="163.888888888889,0"
+              EndConnector="-184.444444444446,0"
               Start="0,0"
-              End="156.388888888889,0">
+              End="-176.944444444446,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="156.388888888889,0" />
+                    End="-176.944444444446,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28135,133 +28091,33 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada7]"
-          TopLeft="1082,92">
+          TopLeft="1742.88888888889,752.111111111111">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="59,0"
+              EndConnector="163.888888888889,0"
               Start="0,0"
-              End="51.5,0">
+              End="156.388888888889,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="51.5,0" />
+                    End="156.388888888889,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada6]"
-          TopLeft="239,208.5">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-38,0"
-              Start="0,0"
-              End="-30.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-30.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada5]"
-          TopLeft="1107,219">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="56,0"
-              Start="0,0"
-              End="48.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="48.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada4]"
-          TopLeft="238,91">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-61,0"
-              Start="0,0"
-              End="-53.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="-53.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada3]"
-          TopLeft="1554,502">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="56,0"
-              Start="0,0"
-              End="48.5,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="48.5,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada2]"
           TopLeft="885.555555555556,1657.22222222222">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28279,13 +28135,33 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada1]"
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada5]"
+          TopLeft="1554,502">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="56,0"
+              Start="0,0"
+              End="48.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="48.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada4]"
           TopLeft="1193,438">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28303,33 +28179,95 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada]"
-          TopLeft="795,157">
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada3]"
+          TopLeft="1107,219">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,51"
+              EndConnector="56,0"
               Start="0,0"
-              End="0,43.5">
+              End="48.5,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,43.5" />
+                    End="48.5,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada2]"
+          TopLeft="239,208.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-38,0"
+              Start="0,0"
+              End="-30.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-30.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada1]"
+          TopLeft="1082,92">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="59,0"
+              Start="0,0"
+              End="51.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="51.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de columna derivada]"
+          TopLeft="238,91">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-61,0"
+              Start="0,0"
+              End="-53.5,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-53.5,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28351,9 +28289,7 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28375,9 +28311,7 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28399,9 +28333,7 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28423,9 +28355,7 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28447,9 +28377,7 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28471,9 +28399,7 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28495,9 +28421,7 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28519,9 +28443,7 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28543,13 +28465,45 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación10]"
+          TopLeft="1194,533">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-291.666666666667,110"
+              Start="0,0"
+              End="-291.666666666667,102.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,61.421686746988" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,61.421686746988"
+                    Point2="0,65.421686746988"
+                    Point3="-4,65.421686746988" />
+                  <mssgle:LineSegment
+                    End="-287.666666666667,65.421686746988" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-287.666666666667,65.421686746988"
+                    Point2="-291.666666666667,65.421686746988"
+                    Point3="-291.666666666667,69.421686746988" />
+                  <mssgle:LineSegment
+                    End="-291.666666666667,102.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación9]"
           TopLeft="1375.5,1269.22222222222">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28579,85 +28533,11 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación9]"
-          TopLeft="546,244">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="117,311"
-              Start="0,0"
-              End="117,303.5">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,180.797101449275" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,180.797101449275"
-                    Point2="0,184.797101449275"
-                    Point3="4,184.797101449275" />
-                  <mssgle:LineSegment
-                    End="113,184.797101449275" />
-                  <mssgle:CubicBezierSegment
-                    Point1="113,184.797101449275"
-                    Point2="117,184.797101449275"
-                    Point3="117,188.797101449275" />
-                  <mssgle:LineSegment
-                    End="117,303.5" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación8]"
-          TopLeft="883,1274">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-31.5555555555557,47.666666666667"
-              Start="0,0"
-              End="-31.5555555555557,40.166666666667">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,24.4230471771077" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,24.4230471771077"
-                    Point2="0,28.4230471771077"
-                    Point3="-4,28.4230471771077" />
-                  <mssgle:LineSegment
-                    End="-27.5555555555557,28.4230471771077" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-27.5555555555557,28.4230471771077"
-                    Point2="-31.5555555555557,28.4230471771077"
-                    Point3="-31.5555555555557,32.4230471771077" />
-                  <mssgle:LineSegment
-                    End="-31.5555555555557,40.166666666667" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación7]"
           TopLeft="1369,1443.22222222222">
           <EdgeLayout.Curve>
             <mssgle:Curve
@@ -28687,9 +28567,41 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación7]"
+          TopLeft="883,1274">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-31.5555555555557,47.666666666667"
+              Start="0,0"
+              End="-31.5555555555557,40.166666666667">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,24.4230471771077" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,24.4230471771077"
+                    Point2="0,28.4230471771077"
+                    Point3="-4,28.4230471771077" />
+                  <mssgle:LineSegment
+                    End="-27.5555555555557,28.4230471771077" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-27.5555555555557,28.4230471771077"
+                    Point2="-31.5555555555557,28.4230471771077"
+                    Point3="-31.5555555555557,32.4230471771077" />
+                  <mssgle:LineSegment
+                    End="-31.5555555555557,40.166666666667" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28723,45 +28635,41 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación5]"
-          TopLeft="899.166666666667,1443.44444444444">
+          TopLeft="546,244">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-43.6111111111107,77.7777777777781"
+              EndConnector="117,311"
               Start="0,0"
-              End="-43.6111111111107,70.2777777777781">
+              End="117,303.5">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,42.3638821303056" />
+                    End="0,180.797101449275" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,42.3638821303056"
-                    Point2="0,46.3638821303056"
-                    Point3="-4,46.3638821303056" />
+                    Point1="0,180.797101449275"
+                    Point2="0,184.797101449275"
+                    Point3="4,184.797101449275" />
                   <mssgle:LineSegment
-                    End="-39.6111111111107,46.3638821303056" />
+                    End="113,184.797101449275" />
                   <mssgle:CubicBezierSegment
-                    Point1="-39.6111111111107,46.3638821303056"
-                    Point2="-43.6111111111107,46.3638821303056"
-                    Point3="-43.6111111111107,50.3638821303056" />
+                    Point1="113,184.797101449275"
+                    Point2="117,184.797101449275"
+                    Point3="117,188.797101449275" />
                   <mssgle:LineSegment
-                    End="-43.6111111111107,70.2777777777781" />
+                    End="117,303.5" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
@@ -28783,45 +28691,41 @@ OPTION (MAXRECURSION 0);</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Carga hechos Productos\Datos Productos.Paths[Salida de ordenación3]"
-          TopLeft="874,1081">
+          TopLeft="1371.5,864.222222222222">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-31.5555555555557,69.2222222222222"
+              EndConnector="-454.166666666667,87.7777777777778"
               Start="0,0"
-              End="-31.5555555555557,61.7222222222222">
+              End="-454.166666666667,80.2777777777778">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,37.2374591867023" />
+                    End="0,48.3149693934335" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,37.2374591867023"
-                    Point2="0,41.2374591867023"
-                    Point3="-4,41.2374591867023" />
+                    Point1="0,48.3149693934335"
+                    Point2="0,52.3149693934335"
+                    Point3="-4,52.3149693934335" />
                   <mssgle:LineSegment
-                    End="-27.5555555555557,41.2374591867023" />
+                    End="-450.166666666667,52.3149693934335" />
                   <mssgle:CubicBezierSegment
-                    Point1="-27.5555555555557,41.2374591867023"
-                    Point2="-31.5555555555557,41.2374591867023"
-                    Point3="-31.5555555555557,45.2374591867023" />
+                    Point1="-450.166666666667,52.3149693934335"
+                    Point2="-454.166666666667,52.3149693934335"
+                    Point3="-454.166666666667,56.3149693934335" />
                   <mssgle:LineSegment
-                    End="-31.5555555555557,61.7222222222222" />
+                    End="-454.166666666667,80.2777777777778" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

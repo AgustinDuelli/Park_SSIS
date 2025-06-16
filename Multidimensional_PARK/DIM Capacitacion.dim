@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="0b2150e0-76fe-4a26-a289-33d16c6b2852" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="764c985b-eb46-4ec6-9e32-9ae1e898e582" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DIM Capacitacion</ID>
   <Name>DIM Capacitacion</Name>
   <CreatedTimestamp>0001-01-01T03:00:00Z</CreatedTimestamp>
@@ -68,37 +68,33 @@
   </Annotations>
   <LastProcessed>0001-01-01T03:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="56c3b923-600c-4ecf-b500-d961b611d998">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="702db274-e47a-4d3d-8b5d-2ca014eb43ed">
     <DataSourceViewID>DW VENTAS</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="d963e0b8-6fc7-412e-8ddd-a4c26623cf35">
+  <ErrorConfiguration dwd:design-time-name="ee489321-cbfb-48db-b2b8-b7846ef4f446">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="4b1962dd-8872-4a60-b916-483dcc1e0cfc">
+    <Attribute dwd:design-time-name="139c5fd2-1ff1-4415-b9b0-406b7492b192">
       <ID>Id Rango Horas</ID>
       <Name>Id Rango Horas</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0ce196c7-5895-44e7-b871-52eb7dee6adf">
+        <KeyColumn dwd:design-time-name="5705e85c-e46a-4b20-bf0f-90bb52643582">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f39ffaa1-0249-4fac-aeb0-063103752834">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fcfbf6b0-3024-42b4-8b4b-9d7f9e3b5c32">
             <TableID>dbo_DIM_Capacitacion</TableID>
             <ColumnID>id_rango_horas</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="5d5f8d56-9a28-4496-8aae-cb3ff64e42fc">
-          <AttributeID>Min Horas</AttributeID>
-          <Name>Min Horas</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="40dc25ed-0f96-404c-a16e-33f7ccc0be04">
-          <AttributeID>Max Horas</AttributeID>
-          <Name>Max Horas</Name>
+        <AttributeRelationship dwd:design-time-name="205e5f0b-4dcf-45b1-b04a-927df15ec29f">
+          <AttributeID>Rango Horas</AttributeID>
+          <Name>Rango Horas</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
@@ -106,34 +102,33 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="6228379a-9005-4708-b37e-55ba2d933614">
-      <ID>Min Horas</ID>
-      <Name>Min Horas</Name>
+    <Attribute dwd:design-time-name="05520eb2-f4b7-40ed-bae1-65e0470a7c31">
+      <ID>Rango Horas</ID>
+      <Name>Rango Horas</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c6bc110e-b37f-4401-b602-85e849da2d70">
+        <KeyColumn dwd:design-time-name="348e0b2a-f828-4dd9-b90b-1a8e7ed89b51">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b8d1d694-4229-4d18-98f6-8a783e2839c2">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9327ae5c-6f8d-402d-a83c-559d551e68d2">
             <TableID>dbo_DIM_Capacitacion</TableID>
             <ColumnID>min_horas</ColumnID>
           </Source>
         </KeyColumn>
-      </KeyColumns>
-      <OrderBy>Key</OrderBy>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="94b4b81e-1734-4cbb-8f91-719720c5894b">
-      <ID>Max Horas</ID>
-      <Name>Max Horas</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="ab882579-c369-408c-91ac-056d33f11880">
+        <KeyColumn dwd:design-time-name="e9286370-f063-4aa3-8834-f4a390c8bf62">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8c4e2ce9-ebd9-466c-a8ff-39f774e48057">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dda9bb60-6167-42d7-bc18-3f0fac6df608">
             <TableID>dbo_DIM_Capacitacion</TableID>
             <ColumnID>max_horas</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="8f08d262-a93e-4acc-a31c-0c49c10b5f8c">
+        <DataType>WChar</DataType>
+        <DataSize>23</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="525b3477-2ff8-45f8-a7db-1d6bb7755df9">
+          <TableID>dbo_DIM_Capacitacion</TableID>
+          <ColumnID>rango_horas</ColumnID>
+        </Source>
+      </NameColumn>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
